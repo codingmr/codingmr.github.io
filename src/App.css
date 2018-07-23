@@ -22,6 +22,20 @@
   font-size: large;
 }
 
+.leftMi {
+  text-align: left;
+}
+
+.jumbo {
+  margin: auto;
+  width: 50%;
+  background-color: none;
+}
+
+.btn-gogo {
+  margin: 1%;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

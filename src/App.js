@@ -5,6 +5,7 @@ import './App.css';
 import { Button } from 'reactstrap';
 
 import Navigationbar from './components/Navigationbar';
+import Landing from './components/Landing';
 
 class App extends Component {
   constructor(){
@@ -24,10 +25,14 @@ class App extends Component {
         <header className="App-header">
           <Navigationbar />
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
         </header>
+        <Landing />
+        { // <Landing />
+          // <About />
+          // <Projects />
+          // <Footer />
+        } 
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
           <Button onClick={this.increment} >Click me</Button>
           {this.state.count};
         </p>
