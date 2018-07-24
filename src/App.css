@@ -9,9 +9,12 @@
 
 .App-header {
   background-color: rgb(0, 255, 170);
-  height: 150px;
-  padding: 20px;
+  height: 10vh;
   color: white;
+}
+
+.navbar-border {
+  box-shadow: 0 0.161rem 0.08rem rgba(0, 0, 0, .1618);
 }
 
 .App-title {
@@ -26,10 +29,20 @@
   text-align: left;
 }
 
+.landing-view {
+  height: 90vh;
+  width: calc(100vw - (100vw - 100%));
+  background-color: rgb(0, 255, 170);
+}
+
 .jumbo {
+  padding-top: 10%;
   margin: auto;
   width: 50%;
-  background-color: none;
+}
+
+.jumbo-adjust {
+  background-color: transparent !important;
 }
 
 .btn-gogo {

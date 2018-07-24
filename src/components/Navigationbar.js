@@ -9,7 +9,7 @@ import {
   NavLink
   } from 'reactstrap';
 
-export default class Example extends React.Component {
+export default class Navigationbar extends React.Component {
   constructor(props) {
     super(props);
 
@@ -26,8 +26,8 @@ export default class Example extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="none" light expand="md">
-          <NavbarBrand href="/#landing">codingmroberts</NavbarBrand>
+        <Navbar color="none" light expand="md" fixed={`top`} className="navbar-border">
+          <NavbarBrand href="/#landing"><b>coding</b>mroberts</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
