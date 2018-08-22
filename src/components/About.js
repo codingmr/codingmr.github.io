@@ -2,11 +2,15 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 import net_graph from '../media/net_graph.png';
+// ES6 Imports
+import * as Scroll from 'react-scroll';
+import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 
 export default class About extends React.Component {
     render() {
         return (
+            <Element name="land">
             <div className="about-view">
                 <div className="about-section">
                     <Container>
@@ -37,6 +41,7 @@ export default class About extends React.Component {
                     </Container>
                 </div>
             </div>
+            </Element>
         );
     }
 }
