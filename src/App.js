@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './media/logo.svg';
 import './App.css';
 
 import { Button } from 'reactstrap';
 
 import Navigationbar from './components/Navigationbar';
 import Landing from './components/Landing';
+import About from './components/About';
 
 class App extends Component {
   constructor(){
@@ -26,7 +27,7 @@ class App extends Component {
           <Navigationbar />
         </header>
         <Landing />
-        <Landing />
+        <About />
         { // <Landing />
           // <About />
           // <Projects />
