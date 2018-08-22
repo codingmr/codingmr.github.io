@@ -16,10 +16,10 @@ export default class Landing extends React.Component {
                     </p>
                     <p className="lead">
                     <ButtonGroup className="front-buttons">
-                        <Button className="btn-gogo" outline color="info">GitHub</Button>
+                        <Button href="https://github.com/codingmr" target="_blank" className="btn-gogo" outline color="info">GitHub</Button>
 
-                        <Button className="btn-gogo" outline color="info">Stackoverflow</Button>
-                        <Button className="btn-gogo" outline color="info">LinkedIn</Button>
+                        <Button href="https://stackoverflow.com/users/2189042/matt-roberts" target="_blank" className="btn-gogo" outline color="info">Stackoverflow</Button>
+                        <Button href="https://www.linkedin.com/in/matt-roberts-8aa85875/" target="_blank" className="btn-gogo" outline color="info">LinkedIn</Button>
                     </ButtonGroup>
 
                     </p>
