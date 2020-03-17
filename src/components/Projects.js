@@ -15,32 +15,42 @@ export default class Projects extends React.Component {
                         <Row>
                             <Col>
                                 <Card className="bottom-pad">
-                                    <CardHeader className="card-header" tag="h3">Iwazeer</CardHeader>
+                                    <CardHeader className="card-header" tag="h3">Media Review</CardHeader>
                                     <CardBody>
-                                        <CardSubtitle className="card-style">Web app for a website that allows visitors to leave a mark in a creative and personalised way.</CardSubtitle>
-                                        <CardText className="card-text">React & Javascript & MongoDB</CardText>
+                                        <CardSubtitle className="card-style">A simple console program to save, view and edit media items that have been added to the system.</CardSubtitle>
+                                        <CardText className="card-text">Java</CardText>
                                     </CardBody>
-                                    <CardLink href="#" className="link-style">Goto</CardLink>
+                                    <CardLink href="https://github.com/codingmr/Media-Review" className="link-style">Goto</CardLink>
                                 </Card>
                             </Col>
                             <Col>
                                 <Card className="bottom-pad">
-                                    <CardHeader className="card-header" tag="h3">Empty</CardHeader>
+                                    <CardHeader className="card-header" tag="h3">Procrastinotion</CardHeader>
                                     <CardBody>
-                                        <CardSubtitle className="card-style">A something that does something for some reason and provies something.</CardSubtitle>
-                                        <CardText className="card-text">React</CardText>
+                                        <CardSubtitle className="card-style">A collaborative chrome extention project. The App monitors a users browsing habits and prompts the user if it detects procrastination.</CardSubtitle>
+                                        <CardText className="card-text">JavaScript</CardText>
                                     </CardBody>
-                                    <CardLink href="#" className="link-style">Goto</CardLink>
+                                    <CardLink href="https://github.com/Apachean/procrastinotion" className="link-style">Goto</CardLink>
                                 </Card>
                             </Col>
                             <Col>
                                 <Card className="bottom-pad">
-                                    <CardHeader className="card-header" tag="h3">Empty</CardHeader>
+                                    <CardHeader className="card-header" tag="h3">A collection of python scripts</CardHeader>
                                     <CardBody>
-                                        <CardSubtitle className="card-style">A something that does something for some reason and provies something.</CardSubtitle>
-                                        <CardText className="card-text">Java & Android</CardText>
+                                        <CardSubtitle className="card-style">Python scripts used for preprocessing data for a number of machine learning algorithms and to visualize the results.</CardSubtitle>
+                                        <CardText className="card-text">Python & Machine Learning</CardText>
                                     </CardBody>
-                                    <CardLink href="#" className="link-style">Goto</CardLink>
+                                    <CardLink href="https://github.com/codingmr/Dissertation-projectcode" className="link-style">Goto</CardLink>
+                                </Card>
+                            </Col>
+                            <Col>
+                                <Card className="bottom-pad">
+                                    <CardHeader className="card-header" tag="h3">Media Review</CardHeader>
+                                    <CardBody>
+                                        <CardSubtitle className="card-style">A simple console program to save, view and edit media items that have been added to the system.</CardSubtitle>
+                                        <CardText className="card-text">Java</CardText>
+                                    </CardBody>
+                                    <CardLink href="https://github.com/codingmr/Media-Review" className="link-style">Goto</CardLink>
                                 </Card>
                             </Col>
                         </Row>

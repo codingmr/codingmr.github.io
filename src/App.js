@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './media/logo.svg';
 import './App.css';
 
 import { Button } from 'reactstrap';
@@ -24,7 +23,7 @@ class App extends Component {
         <About/>
         <Projects/>
       </div>
-      
+
     );
   }
 }

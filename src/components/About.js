@@ -22,18 +22,18 @@ export default class About extends React.Component {
                                     <p className="assured">
                                         I'm super interested in how things work, function, operate and most of all how
                                         an action can be automated. The projects that I've worked on so far have been
-                                        ideal for quickly learning the different stages in a development cycle. The best
-                                        candidate that gives the fastest results is React, infact this
+                                        ideal for quickly learning the different stages throughout a development cycle.
+                                        One of my favourite technologies that give fast results is React, infact this
                                         website was built with it.
-                                    </p>
-                                    
-                                    <p className="assured">
-                                        When I'm not spending my time hitting buttons (writing code) I enjoy exploring beautiful places, getting mind deep into a sci-fi film, 
-                                        or poised in some strange position, <i>luckily they call it yoga these days.</i>
                                     </p>
 
                                     <p className="assured">
-                                        Some technologies I'm familiar with are: <b>MySQL</b>, <b>React</b>, <b>Java</b> and <b>MongoDB</b>
+                                        When I'm not spending my time hitting buttons (writing code) I enjoy exploring beautiful places, getting mind deep into a sci-fi film,
+                                        or poised in some strange position, <i>luckily other people do it too and they call it yoga.</i>
+                                    </p>
+
+                                    <p className="assured">
+                                        Some technologies I'm familiar with are: <b>MySQL</b>, <b>React</b>, <b>Java</b> and <b>Python</b>
                                     </p>
                                 </div>
                             </Col>

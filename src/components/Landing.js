@@ -9,7 +9,7 @@ export default class Landing extends React.Component {
             <Jumbotron className="jumbo-adjust">
                 <div className="jumbo">
                     <h1 className="main-head">Matt Roberts</h1>
-                    <p className="lead">Computer Science Student @ Cardiff Metropolitan University</p>
+                    <p className="lead">Computer Science Graduate</p>
                     <hr className="my-2" />
                     <p className="front-textbody">Welcome to my portfolio, here you will find the various projects I'm undertaking
                         and my `works of glory`. Feel free to connect with me via the social networks below.

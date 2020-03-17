@@ -95,18 +95,18 @@
 }
 
 .card-header {
-  font-size: 2.618vw;
+  font-size: 1.8vw;
 
 }
 
 .card-text {
-  font-size: 1.23vw;
+  font-size: 1vw;
 }
 
 .card-style {
-  padding: 5%;
+  padding: 1.7%;
   padding-bottom: 13%;
-  font-size: 1.618vw;
+  font-size: 1.23vw;
 }
 
 .bottom-pad {
@@ -117,12 +117,12 @@
   text-align: right !important;
   padding-bottom: 5%;
   padding-right: 5%;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 
 .box {
-  
+
   width: 25vw;
   height: 21.7153284672vw;
 }
