@@ -6,7 +6,12 @@ import { Jumbotron,
 } from 'reactstrap';
 
 import './styles/landing-default.css';
-
+import { Link,
+         Element,
+         Events,
+         animateScroll as scroll,
+         scrollSpy,
+         scroller } from 'react-scroll';
 
 export default class Landing extends React.Component {
     render() {

@@ -3,6 +3,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(31, 40, 51);
+  color: white;
 }
 #align-center {
   display:flex;
@@ -42,10 +44,6 @@
 }
 #jumbo {
   background-color: rgb(31, 40, 51);
-}
-#landing-view {
-  background-color: rgb(31, 40, 51);
-  color: white;
 }
 
 /* Gradient transparent - color - transparent */
