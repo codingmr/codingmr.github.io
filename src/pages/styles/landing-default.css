@@ -1,0 +1,54 @@
+#landing-view {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(31, 40, 51);
+  color: white;
+}
+#align-center {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  max-width: 75%;
+}
+#social-but-links {
+  padding-top: 3vmax;
+  flex-wrap: wrap;
+}
+#connect-button {
+  color: rgb(17, 150, 150);
+  border-color: rgb(17, 150, 150);
+}
+#connect-button:hover {
+  color: white;
+  background-color: rgb(17, 150, 150);
+}
+#welcome-info-body {
+  margin-top: 7vmax;
+  max-width: 720px;
+}
+#welcome-info-text {
+}
+#title {
+  font-size: 6.93vmax;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(17, 150, 150);
+}
+#subtitle {
+  font-size: 3.69vmax;
+  font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
+  color: rgb(212, 212, 212);
+}
+#jumbo {
+  background-color: rgb(31, 40, 51);
+}
+
+/* Gradient transparent - color - transparent */
+#line-breaker {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}

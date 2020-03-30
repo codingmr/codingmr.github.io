@@ -1,0 +1,31 @@
+#projects-view {
+  height: 100vh;
+  background-color: rgb(31, 40, 51);
+}
+#projects-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+  flex-wrap: wrap;
+  padding-top: 300px;
+}
+#card-body {
+  width: 320px;
+  margin: 23px;
+}
+
+#java-button {
+  background-color: orange;
+  color: black;
+}
+
+#python-button {
+  background-color: green;
+  color: black;
+}
+
+#javascript-button {
+  background-color: yellow;
+  color: black;
+}
