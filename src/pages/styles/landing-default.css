@@ -1,5 +1,13 @@
+#landing-view {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #align-center {
   text-align: center;
+  border: 3px green solid;
+  max-width: 75%;
 }
 #social-but-links {
   padding-top: 3vmax;
@@ -12,7 +20,6 @@
 #welcome-info-text {
 }
 #title {
-  padding-top: 72px;
   font-size: 6.93vmax;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: rgb(102, 252, 241);

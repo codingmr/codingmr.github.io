@@ -5,7 +5,7 @@ import { Button } from 'reactstrap';
 
 import Navigationbar from './components/Navigationbar';
 import Landing from './pages/Landing';
-
+import Aboutme from './pages/Aboutme';
 
 class App extends Component {
   render() {
@@ -16,6 +16,7 @@ class App extends Component {
           <Navigationbar />
         </header>
         <Landing/>
+        <Aboutme/>
       </div>
 
     );
