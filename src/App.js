@@ -5,7 +5,7 @@ import { Button } from 'reactstrap';
 
 import Navigationbar from './components/Navigationbar';
 import Landing from './pages/Landing';
-import Aboutme from './pages/Aboutme';
+import About from './pages/About';
 
 class App extends Component {
   render() {
@@ -16,7 +16,7 @@ class App extends Component {
           <Navigationbar />
         </header>
         <Landing/>
-        <Aboutme/>
+        <About/>
       </div>
 
     );

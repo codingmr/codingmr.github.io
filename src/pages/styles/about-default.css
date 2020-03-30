@@ -1,0 +1,33 @@
+#aboutme-view {
+  height: 100vh;
+  padding-top: 20vh;
+  background-color: rgb(21, 40, 51);
+  color: white;
+}
+#aboutme-body {
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+}
+#img {
+  max-width: inherit;
+  float: left;
+  padding: 20px;
+}
+#section-title {
+  font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
+  color: rgb(212, 212, 212);
+}
+#section-body {
+  max-width: 100%;
+  background-color: inherit;
+  padding: 20px;
+}
+#img-body {
+  max-width: inherit;
+}
+#section-text {
+  height: inherit;
+}

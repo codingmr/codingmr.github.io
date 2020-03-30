@@ -18,15 +18,15 @@ export default class Landing extends React.Component {
               <div id="welcome-info-body">
                 <hr id="line-breaker" />
                 <p id="welcome-info-text">Welcome to my portfolio, here you will find the various projects I'm undertaking
-                and my `works of glory`. Feel free to connect with me via the social networks below.
+                and my 'works of glory'. Feel free to connect with me via the social networks below.
                 </p>
               </div>
 
               <ButtonGroup id="social-but-links" >
-                <Button href="https://github.com/codingmr" target="_blank" className="btn-gogo" outline color="info">GitHub</Button>
+                <Button id="connect-button" href="https://github.com/codingmr" target="_blank" className="btn-gogo" outline color="info">GitHub</Button>
 
-                <Button href="https://stackoverflow.com/users/2189042/matt-roberts" target="_blank" className="btn-gogo" outline color="info">Stackoverflow</Button>
-                <Button href="https://www.linkedin.com/in/matt-roberts-8aa85875/" target="_blank" className="btn-gogo" outline color="info">LinkedIn</Button>
+                <Button id="connect-button" href="https://stackoverflow.com/users/2189042/matt-roberts" target="_blank" className="btn-gogo" outline color="info">Stackoverflow</Button>
+                <Button id="connect-button" href="https://www.linkedin.com/in/matt-roberts-8aa85875/" target="_blank" className="btn-gogo" outline color="info">LinkedIn</Button>
               </ButtonGroup>
 
             </div>
