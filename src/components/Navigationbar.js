@@ -62,10 +62,10 @@ export default class Navigationbar extends React.Component {
               <NavItem id="nav-item">
                 <Button id="nav-button" color="link"onClick={this.gotoAbout}>About</Button>
               </NavItem>
-              <NavItem>
+              <NavItem id="nav-item">
                 <Button id="nav-button" color="link"onClick={this.gotoProjects}>Projects</Button>
               </NavItem>
-              <NavItem>
+              <NavItem id="nav-item">
                 <Button id="nav-button" color="link"onClick={this.gotoContact}>Contact</Button>
               </NavItem>
             </Nav>

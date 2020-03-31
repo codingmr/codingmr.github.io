@@ -22,7 +22,7 @@ class App extends Component {
         <About/>
         <Projects/>
         <footer>
-        <Footer/>
+          <Footer/>
         </footer>
       </div>
 
