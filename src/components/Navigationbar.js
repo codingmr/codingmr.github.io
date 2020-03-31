@@ -34,6 +34,7 @@ export default class Navigationbar extends React.Component {
       delay: 0,
       smooth: 'easeInOutQuart'
     })
+    toggle()
   }
 
   gotoAbout() {
@@ -42,6 +43,7 @@ export default class Navigationbar extends React.Component {
       delay: 0,
       smooth: 'easeInOutQuart'
     })
+    toggle()
   }
 
   gotoProjects() {
@@ -50,6 +52,7 @@ export default class Navigationbar extends React.Component {
       delay: 0,
       smooth: 'easeInOutQuart'
     })
+    toggle()
   }
 
   gotoContact() {
@@ -58,6 +61,7 @@ export default class Navigationbar extends React.Component {
       delay: 0,
       smooth: 'easeInOutQuart'
     })
+    toggle()
   }
 
   render() {
