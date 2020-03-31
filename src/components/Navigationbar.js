@@ -6,12 +6,11 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
   Button
   } from 'reactstrap';
 
-import * as Scroll from 'react-scroll';
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
+import { scroller } from 'react-scroll'
 import './styles/navigation-default.css';
 
 export default class Navigationbar extends React.Component {
@@ -30,25 +29,35 @@ export default class Navigationbar extends React.Component {
   }
 
   gotoTop() {
-    scroll.scrollToTop();
+    scroller.scrollTo('landing-view', {
+      duration: 800,
+      delay: 0,
+      smooth: 'easeInOutQuart'
+    })
   }
 
   gotoAbout() {
-    var html = document.documentElement.clientHeight;
-
-    scroll.scrollTo(html);
+    scroller.scrollTo('about-view', {
+      duration: 800,
+      delay: 0,
+      smooth: 'easeInOutQuart'
+    })
   }
 
   gotoProjects() {
-    var html = document.documentElement.clientHeight * 2;
-
-    scroll.scrollTo(html);
+    scroller.scrollTo('projects-view', {
+      duration: 800,
+      delay: 0,
+      smooth: 'easeInOutQuart'
+    })
   }
 
   gotoContact() {
-    var html = document.documentElement.clientHeight * 3;
-
-    scroll.scrollTo(html);
+    scroller.scrollTo('contact-view', {
+      duration: 800,
+      delay: 0,
+      smooth: 'easeInOutQuart'
+    })
   }
 
   render() {

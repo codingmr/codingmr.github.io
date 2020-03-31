@@ -1,6 +1,9 @@
 #projects-view {
   min-height: 100vh;
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(31, 40, 51);
 }
 #projects-body {
@@ -12,7 +15,7 @@
   padding-bottom: 5vh;
 }
 #card-body {
-  width: 320px;
+  max-width: 320px;
   margin: 23px;
 }
 

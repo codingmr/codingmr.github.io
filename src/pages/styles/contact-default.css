@@ -1,0 +1,35 @@
+#contact-view {
+  min-height: 100vh;
+  height: auto;
+  background-color: rgb(21, 40, 51);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact-body {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  color: white;
+}
+#contact-form {
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 568px;
+}
+#contact-email {
+  max-width: 320px;
+}
+#contact-message {
+  max-width: 568px;
+}
+#contact-response {
+  max-width: 568px;
+  visibility: hidden;
+}
+#contact-submit-group {
+  display: flex;
+  flex-direction: column-reverse;
+}
+#contact-submit {
+
+}

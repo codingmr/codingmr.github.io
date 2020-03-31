@@ -1,31 +1,19 @@
 import React from 'react';
-import { Container,
-         Row,
-         Col,
-         } from 'reactstrap';
 
 import net_graph from '../media/net_graph.png';
-// ES6 Imports
-import * as Scroll from 'react-scroll';
-import { Link,
-         Element,
-         Events,
-         animateScroll as scroll,
-         scrollSpy,
-         scroller } from 'react-scroll';
 
 import './styles/about-default.css';
 
+import { Element } from 'react-scroll'
 
 export default class About extends React.Component {
     render() {
         return (
-            <Element name="land">
-            <div id="aboutme-view">
-              <div id="aboutme-body">
+            <Element id="about-view">
+              <div id="about-body">
                 <div id="section-body">
                     <div id="img-body">
-                      <img id="img" src={net_graph} />
+                      <img id="img" src={net_graph} alt="Node Network" />
                     </div>
                     <div id="section-text">
                       <h2 id="section-title">About me</h2>
@@ -47,7 +35,6 @@ export default class About extends React.Component {
                       </p>
                     </div>
                 </div>
-              </div>
               </div>
             </Element>
         );

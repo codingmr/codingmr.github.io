@@ -1,15 +1,21 @@
 import React from 'react';
-import { Card, Button, CardHeader, CardFooter, CardBody,
-  CardTitle, CardText } from 'reactstrap';
+import { Card,
+         Button,
+         CardHeader,
+         CardFooter,
+         CardBody,
+         CardTitle,
+         CardText
+} from 'reactstrap';
 
 import './styles/projects-default.css';
-import { Element } from 'react-scroll';
+
+import { Element } from 'react-scroll'
 
 export default class Projects extends React.Component {
     render() {
         return (
-            <Element name="projects">
-            <div id="projects-view">
+            <Element id="projects-view">
               <div id="projects-body">
                 <Card id="card-body">
                   <CardHeader>Media Review</CardHeader>
@@ -48,7 +54,6 @@ export default class Projects extends React.Component {
                 </Card>
 
               </div>
-            </div>
             </Element>
         );
     }

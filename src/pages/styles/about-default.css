@@ -1,12 +1,15 @@
-#aboutme-view {
+#about-view {
   height: auto;
   min-height: 100vh;
   padding-top: 5vh;
   background-color: rgb(21, 40, 51);
   padding-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
 }
-#aboutme-body {
+#about-body {
   display: flex;
   justify-content: center;
   align-items: center;

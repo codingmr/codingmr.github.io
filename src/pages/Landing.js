@@ -1,22 +1,16 @@
 import React from 'react';
-import { Jumbotron,
-         Button,
+import { Button,
          ButtonGroup,
-         Container,
 } from 'reactstrap';
 
 import './styles/landing-default.css';
-import { Link,
-         Element,
-         Events,
-         animateScroll as scroll,
-         scrollSpy,
-         scroller } from 'react-scroll';
+
+import { Element } from 'react-scroll'
 
 export default class Landing extends React.Component {
     render() {
         return (
-          <div id="landing-view">
+          <Element id="landing-view">
             <div id="align-center">
               <h1 id="title">Matt Roberts</h1>
               <h2 id="subtitle">Software Engineer</h2>
@@ -35,7 +29,7 @@ export default class Landing extends React.Component {
               </ButtonGroup>
 
             </div>
-          </div>
+        </Element>
         );
     }
 }

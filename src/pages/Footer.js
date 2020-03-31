@@ -1,8 +1,4 @@
 import React from 'react';
-import { Container,
-         Row,
-         Col,
-         } from 'reactstrap';
 
 import './styles/footer-default.css';
 
@@ -11,7 +7,7 @@ export default class Footer extends React.Component {
         return (
             <div id="footer-view">
               <div id="footer-body">
-                <p>© Matt Roberts 2020 All rights reserved.</p>
+                <small>© Matt Roberts 2020 All rights reserved.</small>
               </div>
             </div>
         );

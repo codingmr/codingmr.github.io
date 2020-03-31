@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-//import './App.css';
-
-import { Button } from 'reactstrap';
 
 import Navigationbar from './components/Navigationbar';
 import Landing from './pages/Landing';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 import Footer from './pages/Footer';
 
 
@@ -21,6 +19,7 @@ class App extends Component {
         <Landing/>
         <About/>
         <Projects/>
+        <Contact/>
         <footer>
           <Footer/>
         </footer>
