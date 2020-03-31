@@ -15,9 +15,10 @@ export default class Projects extends React.Component {
                   <CardHeader>Media Review</CardHeader>
                   <CardBody>
                     <CardTitle>Java</CardTitle>
-                    <CardText>A simple console program to save, view and edit media items stored in the system.</CardText>
-                    <Button id="java-button" href="https://github.com/codingmr/Media-Review">Source code</Button>
-
+                    <CardText id="card-text">A simple console program to save, view and edit media items stored in the system.</CardText>
+                    <div id="card-button-body">
+                      <Button id="java-button" outline href="https://github.com/codingmr/Media-Review">Source code</Button>
+                    </div>
                   </CardBody>
                   <CardFooter></CardFooter>
                 </Card>
@@ -26,8 +27,10 @@ export default class Projects extends React.Component {
                   <CardHeader>Procrastinotion</CardHeader>
                   <CardBody>
                     <CardTitle>JavaScript</CardTitle>
-                    <CardText>A chrome extention project. It monitors a users browsing habits and prompts after a period of using social media.</CardText>
-                    <Button id="javascript-button" href="https://github.com/Apachean/procrastinotion">Source Code</Button>
+                    <CardText id="card-text">A chrome extention project. It monitors a users browsing habits and prompts after a period of using social media.</CardText>
+                    <div id="card-button-body">
+                      <Button id="javascript-button" outline href="https://github.com/Apachean/procrastinotion">Source Code</Button>
+                    </div>
                   </CardBody>
                   <CardFooter className="text-muted"></CardFooter>
                 </Card>
@@ -36,8 +39,10 @@ export default class Projects extends React.Component {
                   <CardHeader>A collection of scripts</CardHeader>
                   <CardBody>
                     <CardTitle>Python</CardTitle>
-                    <CardText>Preprocessing data for machine learning algorithms and execution of machine learning algorithms.</CardText>
-                    <Button id="python-button" href="https://github.com/codingmr/Dissertation-projectcode">Source code</Button>
+                    <CardText id="card-text">Preprocessing data for machine learning algorithms and execution of machine learning algorithms.</CardText>
+                    <div id="card-button-body">
+                      <Button id="python-button" outline href="https://github.com/codingmr/Dissertation-projectcode">Source code</Button>
+                    </div>
                   </CardBody>
                   <CardFooter className="text-muted"></CardFooter>
                 </Card>

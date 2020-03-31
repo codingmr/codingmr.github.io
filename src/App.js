@@ -7,6 +7,7 @@ import Navigationbar from './components/Navigationbar';
 import Landing from './pages/Landing';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import Footer from './pages/Footer';
 
 
 class App extends Component {
@@ -20,6 +21,9 @@ class App extends Component {
         <Landing/>
         <About/>
         <Projects/>
+        <footer>
+        <Footer/>
+        </footer>
       </div>
 
     );

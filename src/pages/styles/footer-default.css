@@ -1,0 +1,10 @@
+#footer-view {
+  min-height: auto;
+  background-color: rgb(21, 40, 51);
+  color: white;
+}
+#footer-body {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}

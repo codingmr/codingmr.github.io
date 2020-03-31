@@ -1,14 +1,15 @@
 #projects-view {
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   background-color: rgb(31, 40, 51);
 }
 #projects-body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: inherit;
   flex-wrap: wrap;
-  padding-top: 300px;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 #card-body {
   width: 320px;
@@ -16,16 +17,35 @@
 }
 
 #java-button {
-  background-color: orange;
-  color: black;
+  border-color: orange;
 }
 
 #python-button {
+  border-color: green;
+}
+
+#javascript-button {
+  border-color: yellow;
+}
+
+#python-button:hover {
   background-color: green;
   color: black;
 }
 
-#javascript-button {
+#javascript-button:hover {
   background-color: yellow;
+  color:black;
+}
+#java-button:hover {
+  background-color: orange;
   color: black;
+}
+
+#card-text {
+  margin-bottom: 30px;
+}
+
+#card-button-body {
+  text-align: right;
 }
