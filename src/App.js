@@ -7,15 +7,16 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './pages/Footer';
 
+import ScrollButton from './components/ScrollButton'
+
+import NavigationControl from './components/NavigationControl'
 
 class App extends Component {
   render() {
     return (
 
       <div className="App">
-        <header className="App-header">
-          <Navigationbar />
-        </header>
+        <NavigationControl/>
         <Landing/>
         <About/>
         <Projects/>
