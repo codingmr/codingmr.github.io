@@ -18,24 +18,19 @@
   max-width: 320px;
   margin: 23px;
 }
-
 #java-button {
   border-color: orange;
 }
-
 #python-button {
   border-color: green;
 }
-
 #javascript-button {
   border-color: yellow;
 }
-
 #python-button:hover {
   background-color: green;
   color: black;
 }
-
 #javascript-button:hover {
   background-color: yellow;
   color:black;
@@ -44,11 +39,9 @@
   background-color: orange;
   color: black;
 }
-
 #card-text {
   margin-bottom: 30px;
 }
-
 #card-button-body {
   text-align: right;
 }

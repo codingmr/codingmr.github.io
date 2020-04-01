@@ -92,7 +92,7 @@ export default class NavigationControl extends React.Component {
     if (scrolled>20){
       this.setState({isVisible: true})
 
-      if (scrolled=="100"){
+      if (scrolled==="100"){
         this.setState({
           theposition: "Top",
         })
