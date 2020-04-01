@@ -35,15 +35,7 @@ export default class NavigationControl extends React.Component {
   }
 
   gotoTop() {
-    this.toggle()
-    scroller.scrollTo('landing-view', {
-      duration: 800,
-      delay: 0,
-      smooth: 'easeInOutQuart'
-    })
-  }
-
-  gotoTopNoToggle() {
+    if (this.state.isOpen) {this.setState({isOpen: false})}
     scroller.scrollTo('landing-view', {
       duration: 800,
       delay: 0,
@@ -52,7 +44,7 @@ export default class NavigationControl extends React.Component {
   }
 
   gotoAbout() {
-    this.toggle()
+    if (this.state.isOpen) {this.setState({isOpen: false})}
     scroller.scrollTo('about-view', {
       duration: 800,
       delay: 0,
@@ -61,7 +53,7 @@ export default class NavigationControl extends React.Component {
   }
 
   gotoProjects() {
-    this.toggle()
+    if (this.state.isOpen) {this.setState({isOpen: false})}
     scroller.scrollTo('projects-view', {
       duration: 800,
       delay: 0,
@@ -70,7 +62,7 @@ export default class NavigationControl extends React.Component {
   }
 
   gotoContact() {
-    this.toggle()
+    if (this.state.isOpen) {this.setState({isOpen: false})}
     scroller.scrollTo('contact-view', {
       duration: 800,
       delay: 0,
@@ -161,7 +153,7 @@ export default class NavigationControl extends React.Component {
         <div id="scroll-button-body">
         {
               this.state.isVisible ?
-              <Button id="scroll-button-visible" onClick={()=>this.gotoTopNoToggle()}>
+              <Button id="scroll-button-visible" onClick={()=>this.gotoTop()}>
                 <div><IoIosArrowUp /></div>
                 <Badge id="scroll-percentage" color="secondary">{this.state.theposition}</Badge>
               </Button>
