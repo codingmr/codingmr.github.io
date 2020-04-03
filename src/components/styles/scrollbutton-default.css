@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   min-width: auto;
-  width: 100vw;
+  width: 100%;
   min-height: auto;
   height: 100vh;
   padding-bottom: 2vh;
