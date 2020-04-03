@@ -14,7 +14,9 @@ class App extends Component {
     return (
 
       <div className="App">
-        <NavigationControl/>
+        <header>
+          <NavigationControl/>
+        </header>
         <Landing/>
         <About/>
         <Projects/>
