@@ -27,7 +27,7 @@ export default class About extends React.Component {
 
                       <p>
                           When I'm not spending my time hitting buttons (writing code) I enjoy exploring beautiful places, getting mind deep into a sci-fi film,
-                          or poised in some strange position, <i>luckily other people do it too and they call it yoga.</i>
+                          or poised in some strange position, <i>luckily other people do it too and call it yoga.</i>
                       </p>
 
                       <p>
