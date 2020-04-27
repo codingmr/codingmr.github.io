@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="Npm-icon-Symbol-instance">
+    <g id="Npm-icon">
+      <path d="M0 0L32 0L32 32L0 32L0 0Z" id="Background" fill="none" stroke="none" />
+      <path d="M0 0L32 0L32 11.3333L16 11.3333L16 13.3333L8.66667 13.3333L8.66667 11.3333L0 11.3333L0 0L0 0Z" transform="translate(0 10)" id="Shape" fill="#D50000" stroke="none" />
+      <path d="M0 7.33333L3.33333 7.33333L3.33333 2L5.33333 2L5.33333 7.33333L6.66667 7.33333L6.66667 0L0 0L0 7.33333ZM8.66667 9.33333L8.66667 0L15.3333 0L15.3333 7.33333L12 7.33333L12 9.33333L8.66667 9.33333ZM17.3333 7.33333L17.3333 0L28 0L28 7.33333L26.6667 7.33333L26.6667 2L24.6667 2L24.6667 7.33333L22.6667 7.33333L22.6667 2L20.6667 2L20.6667 7.33333L17.3333 7.33333ZM14 5.33333L12 5.33333L12 2L14 2L14 5.33333Z" transform="translate(2 12)" id="Shape" fill="#EEEEEE" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

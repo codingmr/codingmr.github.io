@@ -1,5 +1,4 @@
 #overline {
-  height: 16px;
   color: rgba(0,0,0,0.87);
   font-family: Roboto;
   font-size: 12px;
@@ -10,7 +9,6 @@
 }
 
 #description {
-  height: flex;
   color: black;
   opacity: 0.6;
   font-family: Roboto;
@@ -19,10 +17,16 @@
   line-height: 20px;
   letter-spacing: 0.25px;
   padding-left: 10px;
+  display: block;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin: 0 auto;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 #body {
-  overflow: hidden;
 }
 
 #container {
@@ -31,17 +35,26 @@
   padding: 10px;
 }
 
+#expand {
+  display: flex;
+  justify-content: flex-end;
+  color: blue;
+  font-size: 12px;
+}
+
 #icon-box {
   display: flex;
   justify-content: flex-end;
-  flex-wrap: wrap;
   min-height: 16px;
+  padding-bottom: 20px;
 }
 
 #icon-back {
   border-width: 1px;
   border-radius: 7px;
   display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
   padding-right: 5px;
   padding-bottom: 5px;
 }
@@ -52,6 +65,11 @@
   margin-top: 5px;
   margin-left: 5px;
   border-radius: 3px;
+}
+
+#icon_img {
+  width: 100%;
+  height: 100%;
 }
 
 #divider {
