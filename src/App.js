@@ -6,6 +6,7 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './pages/Footer';
 
+import Skills from './pages/Skills';
 
 import NavigationControl from './components/NavigationControl'
 
@@ -21,6 +22,7 @@ class App extends Component {
         <About/>
         <Projects/>
         <Contact/>
+        <Skills/>
         <footer>
           <Footer/>
         </footer>
