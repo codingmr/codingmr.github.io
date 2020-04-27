@@ -1,0 +1,61 @@
+#overline {
+  height: 16px;
+  color: rgba(0,0,0,0.87);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#description {
+  height: flex;
+  color: black;
+  opacity: 0.6;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  padding-left: 10px;
+}
+
+#body {
+  overflow: hidden;
+}
+
+#container {
+  max-width: 60vw;
+  background-color: white;
+  padding: 10px;
+}
+
+#icon-box {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  min-height: 16px;
+}
+
+#icon-back {
+  border-width: 1px;
+  border-radius: 7px;
+  display: flex;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+#icon {
+  width: 32px;
+  height: 32px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+
+#divider {
+  opacity: 0.12;
+  height: 1px;
+  background: black;
+}
