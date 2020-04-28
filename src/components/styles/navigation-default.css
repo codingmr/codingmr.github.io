@@ -2,17 +2,25 @@
   border: 0;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.13));
 }
+
 #nav-button {
   color: rgb(17, 150, 150);
+  text-decoration: none;
 }
-#nav-button:hover {
-  margin-right: 20px;
-  transition: margin-right 300ms;
-}
+
 #nav-item {
   text-align: right;
   cursor: pointer;
+  margin-top: -9px;
+  margin-bottom: -9px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+#nav-item:hover {
+  background-color: rgb(17, 15, 15, 0.5);
+  transition: all 600ms;
+}
+
 #brand {
   cursor: pointer;
 }
@@ -23,6 +31,7 @@
 }
 #navbar-visible {
   border: 0;
+  margin-top: 10px;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.13));
   justify-content: flex-end;
 }
