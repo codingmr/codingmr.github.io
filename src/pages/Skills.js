@@ -53,7 +53,7 @@ export default class Skills extends React.Component {
                       {key: 3, src: adobeaftereffects, toolTip: "Adobe After Effects" }]}
             />
             <OverlineItem
-              title={"Responsive deb development"}
+              title={"Responsive web development"}
               description={
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecena."
               }
@@ -81,7 +81,7 @@ export default class Skills extends React.Component {
                       {key: 6, src: android, toolTip: "Android" }]}
             />
             <OverlineItem
-              title={"Continuos Integration, testing & deployment"}
+              title={"Continuous Integration, testing & deployment"}
               description={
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecena."
               }
