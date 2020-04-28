@@ -1,7 +1,6 @@
 #navbar-border {
   border: 0;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.13));
-  box-shadow: 0 0.161rem 0.08rem rgba(15, 10, 10, 0.162);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.13));
 }
 #nav-button {
   color: rgb(17, 150, 150);
@@ -24,20 +23,20 @@
 }
 #navbar-visible {
   border: 0;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.13));
-  box-shadow: 0 0.161rem 0.08rem rgba(15, 10, 10, 0.162);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.13));
+  justify-content: flex-end;
 }
 #navbar-hidden {
   border: 0;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.13));
-  box-shadow: 0 0.161rem 0.08rem rgba(15, 10, 10, 0.162);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.13));
   opacity: 0;
+  justify-content: flex-end;
   transition: all 250ms;
 }
 #navbar-hidden:hover {
   border: 0;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.13));
-  box-shadow: 0 0.161rem 0.08rem rgba(15, 10, 10, 0.162);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.13));
   opacity: 0.7;
+  justify-content: flex-end;
   transition: all 250ms;
 }

@@ -1,5 +1,5 @@
 #scroll-button-body {
-  position: absolute;
+  position: fixed;
   justify-content: flex-end;
   align-items: flex-end;
   text-align: right;
@@ -10,24 +10,27 @@
   min-height: auto;
   height: 100vh;
   padding-bottom: 2vh;
+  padding-right: 2vw;
+
+  z-index: -1;
 }
 #scroll-button-visible {
-  position: fixed;
+  position: absolute;
   opacity: 0.44;
-  margin-right: 5vw;
-  border-radius: 30px;
+  border-radius: 100%;
   transition: all 250ms;
-  z-index: 3;
+  z-index: -1;
+
+  visibility: hidden;
 }
 
 #scroll-button-hidden {
-  position: fixed;
-  opacity: 0.3;
+  position: absolute;
   visibility: hidden;
+  border-radius: 100%;
   transition: all 250ms;
-  z-index: 3;
+  z-index: -1;
 }
 
 #scroll-percentage {
-  width: 33px;
 }
