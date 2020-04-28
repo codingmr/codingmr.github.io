@@ -1,13 +1,28 @@
 #icon_img {
-  width: 32px;
-  height: 32px;
+  max-width: 64px;
+  max-height: 64px;
+
+  height: 7vw;
+  width: 7vw;
+
+  min-height: 16px;
+  min-width: 16px;
 }
 
 #icon-back {
   flex-direction: row;
   display: flex;
   align-items: center;
+  padding: 2px;
+  opacity: 1;
+  cursor: pointer;
 }
+
+#icon-back:hover {
+  opacity: 0.88;
+  cursor: pointer;
+}
+
 
 #tool-tip {
   color: black;
@@ -15,7 +30,6 @@
   font-family: Roboto;
   font-size: 11px;
   font-weight: 500;
-  line-height: 11px;
   text-transform: uppercase;
   letter-spacing: 1px;
 
@@ -25,10 +39,13 @@
   padding-right: 10px;
   display: flex;
   height: 100%;
+
+  cursor: pointer;
 }
 
 #icon {
   margin-top: 5px;
   margin-left: 5px;
   border-radius: 3px;
+  cursor: pointer;
 }
