@@ -1,0 +1,34 @@
+#icon_img {
+  width: 32px;
+  height: 32px;
+}
+
+#icon-back {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+#tool-tip {
+  color: black;
+  opacity: 0.7;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  width: 100%;
+  margin: auto;
+  padding-left: 5px;
+  padding-right: 10px;
+  display: flex;
+  height: 100%;
+}
+
+#icon {
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 3px;
+}

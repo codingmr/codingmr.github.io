@@ -100,31 +100,10 @@
 #icon-box {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
   min-height: 16px;
   padding-bottom: 20px;
-}
-
-#icon-back {
-  border-width: 1px;
-  border-radius: 7px;
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  padding-right: 5px;
-  padding-bottom: 5px;
-}
-
-#icon {
-  width: 32px;
-  height: 32px;
-  margin-top: 5px;
-  margin-left: 5px;
-  border-radius: 3px;
-}
-
-#icon_img {
-  width: 100%;
-  height: 100%;
+  padding-right: 20px;
 }
 
 #divider {

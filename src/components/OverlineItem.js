@@ -2,6 +2,8 @@ import React from 'react';
 
 import './styles/overlineItem-default.css';
 
+import IconItem from './IconItem';
+
 
 export default class OverlineItem extends React.Component{
   constructor(props){
@@ -13,8 +15,19 @@ export default class OverlineItem extends React.Component{
     }
   }
 
+  mapIconsToList = () => {
+    return (
+      this.props.icons.map((icon)=> (
+          <li key={icon} id="icon">
+            <IconItem icon={icon}/>
+          </li>
+        )
+      )
+    );
+  }
+
   render() {
-    const listIcons = this.props.icons.map((icon)=><li key={icon} id="icon"><img id="icon_img" src={icon} alt="alt Icon" /></li>);
+    const listIcons = this.mapIconsToList()
 
     return(
       <div id="container">
@@ -34,9 +47,7 @@ export default class OverlineItem extends React.Component{
 
         </div>
         <div id="icon-box">
-          <div id="icon-back">
             {listIcons}
-          </div>
         </div>
         <hr id="divider"/>
 
