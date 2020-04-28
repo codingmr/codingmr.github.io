@@ -18,8 +18,8 @@ export default class OverlineItem extends React.Component{
   mapIconsToList = () => {
     return (
       this.props.icons.map((icon)=> (
-          <li key={icon} id="icon">
-            <IconItem icon={icon}/>
+          <li key={icon.key} id="icon">
+            <IconItem iconSrc={icon.src} iconToolTip={icon.toolTip}/>
           </li>
         )
       )
@@ -27,8 +27,6 @@ export default class OverlineItem extends React.Component{
   }
 
   render() {
-    const listIcons = this.mapIconsToList()
-
     return(
       <div id="container">
         <div id="body" onClick={()=>this.setState({isOpen: !this.state.isOpen})}>
@@ -47,7 +45,7 @@ export default class OverlineItem extends React.Component{
 
         </div>
         <div id="icon-box">
-            {listIcons}
+            {this.mapIconsToList()}
         </div>
         <hr id="divider"/>
 

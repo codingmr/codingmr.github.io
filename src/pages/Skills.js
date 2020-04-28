@@ -47,35 +47,49 @@ export default class Skills extends React.Component {
               description={
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecena."
               }
-              icons={[gimp, lunacy, inkscape, adobeaftereffects]}
+              icons={[{key: 0, src: gimp, toolTip: "Gimp" },
+                      {key: 1, src: lunacy, toolTip: "Lunacy" },
+                      {key: 2, src: inkscape, toolTip: "Inkscape" },
+                      {key: 3, src: adobeaftereffects, toolTip: "Adobe After Effects" }]}
             />
             <OverlineItem
               title={"Responsive deb development"}
               description={
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecena."
               }
-              icons={[react, html, css, js, bootstrap, git, npm, nodejs]}
+              icons={[{key: 0, src: react, toolTip: "React" },
+                      {key: 1, src: html, toolTip: "HTML 5" },
+                      {key: 2, src: css, toolTip: "CSS 3" },
+                      {key: 3, src: js, toolTip: "Javascript es6" },
+                      {key: 4, src: git, toolTip: "Git" },
+                      {key: 5, src: npm, toolTip: "Npm" },
+                      {key: 6, src: nodejs, toolTip: "Node js" },
+                      {key: 7, src: bootstrap, toolTip: "React bootstrap" }]}
+
             />
             <OverlineItem
               title={"Cross-platform mobile development"}
               description={
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecena."
               }
-              icons={[reactnative, js, babel, git, npm, nodejs, android]}
+              icons={[{key: 0, src: react, toolTip: "React Native" },
+                      {key: 1, src: js, toolTip: "Javascript es6" },
+                      {key: 2, src: git, toolTip: "Git" },
+                      {key: 3, src: npm, toolTip: "Npm" },
+                      {key: 4, src: nodejs, toolTip: "Node js" },
+                      {key: 5, src: babel, toolTip: "Babel" },
+                      {key: 6, src: android, toolTip: "Android" }]}
             />
             <OverlineItem
               title={"Continuos Integration, testing & deployment"}
               description={
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecena."
               }
-              icons={[jenkins, git, github, raspberrypi, playstore]}
-            />
-            <OverlineItem
-              title={"Miscellaneous"}
-              description={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecena."
-              }
-              icons={[google, stackoverflow, java, python]}
+              icons={[{key: 0, src: jenkins, toolTip: "Jenkins" },
+                      {key: 1, src: git, toolTip: "Git" },
+                      {key: 2, src: github, toolTip: "Github API" },
+                      {key: 3, src: raspberrypi, toolTip: "Raspberry Pi" },
+                      {key: 4, src: playstore, toolTip: "Google Playstore" }]}
             />
           </div>
         </div>
