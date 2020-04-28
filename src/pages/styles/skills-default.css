@@ -1,0 +1,22 @@
+#skills-view {
+  height: auto;
+  min-height: 100vh;
+  padding-top: 5vh;
+  background-color: rgb(31, 40, 51);
+  padding-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#skills-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+}
+#section-body {
+  max-width: 100%;
+  background-color: inherit;
+  padding: 20px;
+}

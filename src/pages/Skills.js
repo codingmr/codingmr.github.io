@@ -2,7 +2,7 @@ import React from "react";
 
 import net_graph from "../media/net_graph.png";
 
-import "./styles/about-default.css";
+import "./styles/skills-default.css";
 import OverlineItem from "../components/OverlineItem.js";
 
 import gimp from '../media/icons/ic_gimp.svg';
@@ -39,8 +39,8 @@ import { Element } from "react-scroll";
 export default class Skills extends React.Component {
   render() {
     return (
-      <Element id="about-view">
-        <div id="about-body">
+      <Element id="skills-view">
+        <div id="skills-body">
           <div id="section-body">
             <OverlineItem
               title={"Web & Mobile frontend UI/UX design"}

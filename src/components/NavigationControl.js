@@ -70,6 +70,15 @@ export default class NavigationControl extends React.Component {
     });
   }
 
+  gotoSkills() {
+    if (this.state.isOpen) {this.setState({isOpen: false})}
+    scroller.scrollTo('skills-view', {
+      duration: 800,
+      delay: 0,
+      smooth: 'easeInOutQuart'
+    });
+  }
+
   componentDidMount() {
     window.addEventListener('scroll', this.listenToScroll)
   }
@@ -122,6 +131,9 @@ export default class NavigationControl extends React.Component {
                 <Button id="nav-button" color="link"onClick={() => this.gotoAbout()}>About</Button>
               </NavItem>
               <NavItem id="nav-item">
+                <Button id="nav-button" color="link"onClick={() => this.gotoSkills()}>Skills</Button>
+              </NavItem>
+              <NavItem id="nav-item">
                 <Button id="nav-button" color="link"onClick={() => this.gotoProjects()}>Projects</Button>
               </NavItem>
               <NavItem id="nav-item">
@@ -138,6 +150,9 @@ export default class NavigationControl extends React.Component {
             <Nav className="ml-auto" navbar>
               <NavItem id="nav-item">
                 <Button id="nav-button" color="link"onClick={() => this.gotoAbout()}>About</Button>
+              </NavItem>
+              <NavItem id="nav-item">
+                <Button id="nav-button" color="link"onClick={() => this.gotoSkills()}>Skills</Button>
               </NavItem>
               <NavItem id="nav-item">
                 <Button id="nav-button" color="link"onClick={() => this.gotoProjects()}>Projects</Button>

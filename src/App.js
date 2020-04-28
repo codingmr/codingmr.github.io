@@ -20,9 +20,9 @@ class App extends Component {
         </header>
         <Landing/>
         <About/>
+        <Skills/>
         <Projects/>
         <Contact/>
-        <Skills/>
         <footer>
           <Footer/>
         </footer>
