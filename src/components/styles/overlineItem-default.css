@@ -1,5 +1,6 @@
 #overline {
-  color: rgba(0,0,0,0.87);
+  color: white;
+  opacity: 0.88;
   font-family: Roboto;
   font-size: 1.88vw;
   font-weight: 500;
@@ -17,7 +18,7 @@
           padding-right: 0px;
           margin-left: 20px;
           margin-right: 20px;
-          background-color: rgba(255, 255, 123, .23);
+          background-color: rgba(255, 255, 123, .0);
        }
   to {
 
@@ -25,7 +26,7 @@
         margin-right: 0px;
        padding-left: 20px;
        padding-right: 20px;
-       background-color: rgba(255, 255, 123, .36)
+       background-color: rgba(255, 255, 123, .20)
      }
 }
 
@@ -35,7 +36,7 @@
           padding-right: 20px;
           margin-left: 0px;
           margin-right: 0px;
-          background-color: rgba(255, 255, 123, .33);
+          background-color: rgba(255, 255, 123, .20);
        }
   to {
 
@@ -43,12 +44,12 @@
        margin-right: 20px;
        padding-left: 0px;
        padding-right: 0px;
-       background-color: rgba(255, 255, 123, .10)
+       background-color: rgba(255, 255, 123, .0)
      }
 }
 
 .description_closed {
-  color: black;
+  color: white;
   opacity: 0.6;
   font-family: Roboto;
   font-size: 1.55vw;
@@ -72,7 +73,7 @@
 }
 
 .description_open {
-  color: black;
+  color: white;
   opacity: 0.7;
   font-family: Roboto;
   font-size: 1.55vw;
@@ -80,9 +81,9 @@
   letter-spacing: 0.25px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: rgba(255, 255, 123, .33);
+  background-color: rgba(255, 255, 123, .20);
   animation-name: expand;
-  animation-duration: 2.3s;
+  animation-duration: 1.5s;
 }
 
 #body {
@@ -91,8 +92,7 @@
 
 #container {
   max-width: 100vw;
-  background-color: white;
-  opacity: 1;
+  background-color: rgba(21, 40, 51, 0.88);
   margin-top: -20px;
   border-radius: 3px;
 }
@@ -109,5 +109,5 @@
 #divider {
   opacity: 0.12;
   height: 1px;
-  background: black;
+  background: white;
 }

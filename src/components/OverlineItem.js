@@ -18,9 +18,9 @@ export default class OverlineItem extends React.Component{
   mapIconsToList = () => {
     return (
       this.props.icons.map((icon)=> (
-          <li key={icon.key} id="icon">
+          <div key={icon.key} id="icon">
             <IconItem iconSrc={icon.src} iconToolTip={icon.toolTip}/>
-          </li>
+          </div>
         )
       )
     );

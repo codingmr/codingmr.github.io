@@ -25,10 +25,10 @@
 
 
 #tool-tip {
-  color: black;
+  color: white;
   opacity: 0.7;
   font-family: Roboto;
-  font-size: 11px;
+  font-size: 1.23vw;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -46,6 +46,6 @@
 #icon {
   margin-top: 5px;
   margin-left: 5px;
-  border-radius: 3px;
   cursor: pointer;
+
 }
