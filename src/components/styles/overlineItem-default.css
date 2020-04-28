@@ -6,9 +6,48 @@
   line-height: 16px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  padding-left: 14px;
+  padding-top: 30px;
 }
 
-#description {
+
+@keyframes expand {
+  from {
+          padding-left: 0px;
+          padding-right: 0px;
+          margin-left: 20px;
+          margin-right: 20px;
+          background-color: rgba(255, 255, 123, .35);
+       }
+  to {
+
+    margin-left: 0px;
+    margin-right: 0px;
+       padding-left: 20px;
+       padding-right: 20px;
+       background-color: rgba(255, 255, 123, .42)
+     }
+}
+
+@keyframes shrink {
+  from {
+          padding-left: 20px;
+          padding-right: 20px;
+          margin-left: 0px;
+          margin-right: 0px;
+          background-color: rgba(255, 255, 123, .40);
+       }
+  to {
+
+       margin-left: 20px;
+       margin-right: 20px;
+       padding-left: 0px;
+       padding-right: 0px;
+       background-color: rgba(255, 255, 123, .10)
+     }
+}
+
+.description_closed {
   color: black;
   opacity: 0.6;
   font-family: Roboto;
@@ -16,30 +55,46 @@
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0.25px;
-  padding-left: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   display: block;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  margin: 0 auto;
   display: -webkit-box;
   overflow: hidden;
   text-overflow: ellipsis;
+  animation-name: shrink;
+  animation-duration: 2s;
+}
+
+#description:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.description_open {
+  color: black;
+  opacity: 0.7;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(255, 255, 123, .40);
+  animation-name: expand;
+  animation-duration: 1.5s;
 }
 
 #body {
 }
 
 #container {
-  max-width: 60vw;
+  max-width: 100vw;
   background-color: white;
-  padding: 10px;
-}
-
-#expand {
-  display: flex;
-  justify-content: flex-end;
-  color: blue;
-  font-size: 12px;
+  margin-top: -20px;
+  border-radius: 3px;
 }
 
 #icon-box {
