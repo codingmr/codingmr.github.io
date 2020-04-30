@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Landing from './pages/Landing';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import Showcase from './pages/Showcase';
 import Contact from './pages/Contact';
 import Footer from './pages/Footer';
 
@@ -21,7 +22,7 @@ class App extends Component {
         <Landing/>
         <About/>
         <Skills/>
-        <Projects/>
+        <Showcase/>
         <Contact/>
         <footer>
           <Footer/>

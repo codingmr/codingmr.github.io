@@ -19,7 +19,7 @@ export default class Landing extends React.Component {
               <hr id="line-breaker" />
               <div id="welcome-info-body">
                 <p id="welcome-info-text">Welcome to my portfolio!</p>
-                <p id="welcome-info-text-italic">Pizza, coffee and a pinch of magic, and imagination will become reality</p>
+                <p id="welcome-info-text-italic">Pizza, coffee, a pinch of magic and imagination can become reality</p>
               </div>
 
               <ButtonGroup id="social-but-links" >

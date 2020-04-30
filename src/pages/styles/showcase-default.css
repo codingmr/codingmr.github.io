@@ -1,0 +1,33 @@
+#showcase-view {
+  height: auto;
+  min-height: 100vh;
+  padding-top: 5vh;
+  background-color: rgb(21, 40, 51);
+  padding-bottom: 5vh;
+  padding-right: 5vw;
+  padding-left: 5vw;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+#showcase-body {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  flex-wrap: wrap;
+}
+
+#showcase-text {
+  width:45%;
+}
+
+#showcase-img {
+  background-color: green;
+  display: flex;
+}
+
+#img {
+
+}
