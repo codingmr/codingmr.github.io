@@ -4,9 +4,11 @@
   padding-top: 5vh;
   background-color: rgb(21, 40, 51);
   padding-bottom: 5vh;
+
+  padding-right: 5vw;
+  padding-left: 5vw;
   display: flex;
   justify-content: center;
-  align-items: center;
   color: white;
 }
 #showcase-body {
@@ -16,38 +18,160 @@
   background-color: inherit;
 }
 #carousel {
-  width: 80vw;
 
-  max-height: 720px;
-  max-width: 450px;
+  height: 95vh;
 
-  background-color: red;
+  max-height: 90%;
+  max-width: calc(50vw + 20vh);
+
+  margin-bottom: 15px;
+
+  margin-right: 5vw;
+
   float: left;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#scale {
+  width: 100%;
+  height: 100%;
+  z-index: 33;
+}
+
+#scaleAbso {
+  position: absolute;
+  width: 100%;
+}
+
+#carousel-body {
+  width: 100%;
+  height: 90%;
+  visibility: visible;
+  overflow: hidden;
+}
+
+#text {
+  font-size: 1.88vw;
 }
 
 #screen-overlay {
+  width: calc(95vh * (42.453/75.993));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#dunno {
   position: absolute;
-  background-color: black;
-  opacity: 0.5;
+  width: calc(94vh * (42.453/75.993));
+  max-width: 82%;
+  max-height: 78%;
+  height: calc(78vw * (75.993/42.453));
 }
 
-#screen {
-  position: absolute;
-  background-color: green;
+#fill {
+  width: 100%;
 }
 
 #section-title {
   font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
   color: rgb(212, 212, 212);
+  font-size: 3.30vw;
 }
 #showcase-section-body {
   max-width: 100%;
   background-color: inherit;
-  padding: 20px;
 }
-#carousel-body {
-  max-width: inherit;
+
+#screen {
+  width: 100%;
+  height: 100%;
 }
+
+#iphone-navigation {
+  flex-direction: row;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 88;
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 100%;
+}
+#pullLeft {
+  display: flex;
+  margin-right: auto;
+  justify-content: flex-start;
+  background-image: url('../../media/arrowDoubleleft.svg');
+  border-radius: 20%;
+  min-width: 16px;
+  min-height: 16px;
+  width: calc(0.55864355927vh + 1.79005017313vw * 2);
+  height: calc(0.55864355927vh + 1.79005017313vw * 2);
+  background-size: contain;
+  opacity: 0.7;
+}
+
+#pullLeft:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transition: opacity 450ms;
+}
+
+#pullRight:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transition: opacity 450ms;
+}
+
+#pullRight {
+  background-image: url('../../media/arrowDoubleRight.svg');
+  background-size: contain;
+  opacity: 0.7;
+  border-radius: 20%;
+  min-width: 16px;
+  min-height: 16px;
+  width: calc(0.55864355927vh + 1.79005017313vw * 2);
+  height: calc(0.55864355927vh + 1.79005017313vw * 2);
+}
+#screen-content-default {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgb(224, 60, 49);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#screen-content-bill {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#showcase-section-text {
+  margin-top: 20%;
+}
+
+#over {
+  position: absolute;
+  width: 100%;
+
+}
+
+#screen-icon {
+  width: 60%;
+  margin-left: 5%;
+  margin-bottom: 20%;
+}
+
 #section-text {
   height: inherit;
 }
