@@ -22,9 +22,9 @@ export default class Landing extends React.Component {
                 <p id="welcome-info-text-italic">Pizza, coffee, a pinch of magic and imagination can become reality</p>
               </div>
 
-              <ButtonGroup id="social-but-links" >
-                <a id="connect-button" href="https://github.com/codingmr" color="info"><img id="icon_img" src={github} alt="Github Icon" /></a>
-              </ButtonGroup>
+              <a id="connect-button" href="https://github.com/codingmr" color="info">
+                <img id="icon_welcome_img" src={github} alt="Github Icon" />
+              </a>
 
             </div>
         </Element>

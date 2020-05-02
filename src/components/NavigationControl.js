@@ -123,8 +123,8 @@ export default class NavigationControl extends React.Component {
       {
         this.state.isVisible ?
         <Navbar color="none" dark expand="md" fixed={`top`} id="navbar-hidden">
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
+          <NavbarToggler id="hamburger" onClick={this.toggle} />
+          <Collapse  isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem id="nav-item">
                 <Button id="nav-button" color="link"onClick={() => this.gotoTop()}>Home</Button>
@@ -146,7 +146,7 @@ export default class NavigationControl extends React.Component {
         </Navbar>
         :
         <Navbar color="none" dark expand="md" fixed={`top`} id="navbar-visible">
-          <NavbarToggler onClick={this.toggle} />
+          <NavbarToggler id="hamburger" onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem id="nav-item">

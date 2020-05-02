@@ -6,20 +6,24 @@
 #nav-button {
   color: rgb(17, 150, 150);
   text-decoration: none;
-  padding-top: 12px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.5vw;
 }
 
 #nav-item {
+  display: flex;
+  min-height: 7vh;
+  justify-content: flex-end;
   text-align: right;
   cursor: pointer;
-  margin-top: -9px;
-  margin-bottom: -9px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-right: 1.5vw;
+  margin-top: -1.2vh;
+  margin-bottom: -1.2vh;
 }
 
 #nav-item:hover {
   background-color: rgb(17, 15, 15, 0.5);
-  transition: all 600ms;
+
 }
 
 #brand {
@@ -27,27 +31,30 @@
 }
 #brand:hover {
   cursor: pointer;
-  padding-left: 10px;
-  transition: all 250ms;
 }
 #navbar-visible {
   border: 0;
-  margin-top: 10px;
+  margin-top: 2vh;
+  min-height: 7vh;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.13));
   justify-content: flex-end;
-  padding-right: 20px;
 }
+#hamburger {
+  border: 0;
+}
+
 #navbar-hidden {
   border: 0;
-  margin-top: 10px;
+  margin-top: 2vh;
+  min-height: 7vh;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.13));
   opacity: 0.00;
   justify-content: flex-end;
-  transition: all 250ms;
-  padding-right: 20px;
 }
 #navbar-hidden:hover {
   border: 0;
+  margin-top: 2vh;
+  min-height: 7vh;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.13));
   opacity: 0.7;
   justify-content: flex-end;

@@ -17,27 +17,18 @@
   margin-bottom: auto;
 }
 
-#social-but-links {
-  flex-wrap: wrap;
-  margin-top: 40px;
-}
 #connect-button {
   opacity: 1;
+  margin-top: 2vh;
 }
 #connect-button:hover {
   opacity: 0.8;
   transition: opacity 250ms;
 }
 
-#icon_img {
-  max-width: 64px;
-  max-height: 64px;
-
-  height: 7vw;
-  width: 7vw;
-
-  min-height: 16px;
-  min-width: 16px;
+#icon_welcome_img {
+  width: 5vw;
+  min-width: 32px;
 }
 
 #welcome-info-body {
