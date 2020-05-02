@@ -90,27 +90,31 @@
 }
 
 #iphone-navigation {
-  flex-direction: row;
+  height: 10%;
+  align-self: flex-end;
+  width: calc(94vh * (42.453/75.993));
+  max-width: 85%;
   position: absolute;
+  z-index: 999;
+  flex-direction: row;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 88;
-  padding-left: 15%;
-  padding-right: 15%;
-  width: 100%;
+}
+
+
+#icon_right {
+  width: 5vh;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+#icon_left {
+  width: 5vh;
+  min-width: 20px;
+  min-height: 20px;
 }
 #pullLeft {
   display: flex;
-  margin-right: auto;
-  justify-content: flex-start;
-  background-image: url('../../media/arrowDoubleleft.svg');
-  border-radius: 20%;
-  min-width: 16px;
-  min-height: 16px;
-  width: calc(0.55864355927vh + 1.79005017313vw * 2);
-  height: calc(0.55864355927vh + 1.79005017313vw * 2);
-  background-size: contain;
+  margin: auto;
   opacity: 0.7;
 }
 
@@ -127,14 +131,9 @@
 }
 
 #pullRight {
-  background-image: url('../../media/arrowDoubleRight.svg');
-  background-size: contain;
   opacity: 0.7;
-  border-radius: 20%;
-  min-width: 16px;
-  min-height: 16px;
-  width: calc(0.55864355927vh + 1.79005017313vw * 2);
-  height: calc(0.55864355927vh + 1.79005017313vw * 2);
+  display: flex;
+  margin: auto;
 }
 #screen-content-default {
   width: 100%;

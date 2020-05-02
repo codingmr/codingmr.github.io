@@ -9,6 +9,9 @@ import device_page2 from '../media/device_page2.svg';
 import device_page3 from '../media/device_page3.svg';
 import coffeeCup from '../media/coffeeCupNew.svg';
 import worriedBill from '../media/worried-bill.svg';
+import icon_right from '../media/arrowDoubleRight.svg';
+import icon_left from '../media/arrowDoubleleft.svg';
+
 
 import './styles/showcase-default.css';
 
@@ -55,8 +58,14 @@ export default class Showcase extends React.Component {
                       <div id="screen-overlay">
                         <img id="scale" src={device_phone} />
 
+                        <div id="iphone-navigation">
+                          <a onClick={this.lastPage} id="pullLeft"><img id="icon_left" src={icon_left} /></a>
+                          <a onClick={this.nextPage} id="pullRight"><img id="icon_right" src={icon_right} /></a>
+
+                        </div>
                         <div id="dunno">
-                        <img id="over" src={device_overlay} />
+
+                          <img id="over" src={device_overlay} />
 
                           { (this.state.pageSelectedIndex===1) ? (
                             <div id="screen-content-default">
@@ -68,16 +77,9 @@ export default class Showcase extends React.Component {
                             </div>
                           )}
 
-
-                          <div id="iphone-navigation">
-                            <button onClick={this.lastPage} id="pullLeft"></button>
-                            <button onClick={this.nextPage} id="pullRight"></button>
-                          </div>
                         </div>
-
                       </div>
                     </div>
-
                     <div id="showcase-section-text">
 
                     { (this.state.pageSelectedIndex===1) ? (
@@ -94,7 +96,7 @@ export default class Showcase extends React.Component {
                       <>
                       <h2 id="section-title">Bill! Split the Bill</h2>
                       <p id="text">
-                        My first software development that complete a full life cycle (Design -> Development -> Testing -> Production -> Release)
+                        My first software development that completed a full life cycle (Design -> Development -> Testing -> Production -> Release)
                       </p>
                       <p id="text">
                         Visit the Play store. Visit the Github repo.
