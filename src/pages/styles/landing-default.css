@@ -5,9 +5,14 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  background-color: rgb(31, 40, 51);
-  color: white;
+  background: radial-gradient(ellipse at bottom, #014c79 0%, #111f31 70%);
+  color: #E9BCB7;
 }
+
+#background-overlay {
+
+}
+
 #align-center {
   display:flex;
   align-self: flex-start;
@@ -27,8 +32,8 @@
 }
 
 #icon_welcome_img {
-  width: 5vw;
   min-width: 32px;
+  width: calc(27px + 4vmin)
 }
 
 #welcome-info-body {
@@ -40,25 +45,31 @@
 
 #welcome-info-text {
   padding-top: 30px;
-  font-size: 1.5vw;
+  font-size: calc(12px + 0.9vmin);
   opacity: 0.9;
 }
 
 #welcome-info-text-italic {
-  font-size: 1.4vw;
+  font-size: calc(11px + 0.9vmin);
   font-style: italic;
   opacity: 0.88;
 }
 
 #title {
-  font-size: 12.0vw;
+  font-size: calc(16px + 16vmin);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: rgb(17, 150, 150);
+  color: #6DADDB;
+  text-shadow:
+             0px calc(7px + 1.7vh) calc(5px + 1.3vh) rgba(0,0,0,0.15),
+             0px calc(12px + 2.7vh) calc(1px + 0.7vh) rgba(0,0,0,0.1),
+             0px calc(12px + 2.7vh) calc(15px + 3.3vh) rgba(0,0,0,0.1);
+  text-align: center;
 }
 #subtitle {
-  font-size: 6.0vw;
+  font-size: calc(14px + 8vmin);
   font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
-  color: rgb(212, 212, 212);
+  color: #E9BCB7;
+  text-shadow: 0px 0px calc(3px + 1.0vmin) rgba(240,233,218,0.16);
   text-align: center;
 }
 #jumbo {
@@ -68,7 +79,7 @@
 /* Gradient transparent - color - transparent */
 #line-breaker {
   border: 0;
-  height: 1px;
+  height: calc(1px + 0.05vh);
   width: 80%;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to right, rgba(233, 188, 183, 0), rgba(233, 188, 183, 0.69), rgba(233, 188, 183, 0));
 }

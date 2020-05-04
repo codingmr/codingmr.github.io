@@ -2,12 +2,13 @@
   height: auto;
   min-height: 100vh;
   padding-top: 5vh;
-  background-color: rgb(21, 40, 51);
   padding-bottom: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  background: linear-gradient(to right, #111f31, #014c79, #111f31);
+  color: #E9BCB7;
 }
 #about-body {
   display: flex;
@@ -16,12 +17,14 @@
   background-color: inherit;
 }
 #img {
-  width: 50%;
+  width: calc(320px + 20vmin);
+  max-width: 80%;
   float: right;
 }
-#section-title {
+#about-title {
   font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
   color: rgb(212, 212, 212);
+  font-size: calc(16px + 5vmin);
 }
 #section-body {
   max-width: 100%;
@@ -32,5 +35,5 @@
 }
 #section-text {
   height: inherit;
-  font-size: 1.5vw;
+  font-size: calc(10px + 1.2vmin);
 }

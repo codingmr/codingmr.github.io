@@ -2,7 +2,7 @@
   color: white;
   opacity: 0.88;
   font-family: Roboto;
-  font-size: 1.88vw;
+  font-size: calc(14px + 1vmin);
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.5vw;
@@ -51,7 +51,7 @@
   color: white;
   opacity: 0.6;
   font-family: Roboto;
-  font-size: 1.55vw;
+  font-size: calc(12px + 0.9vmin);
   font-weight: 400;
   padding-left: 1.5vw;
   padding-right: 1.5vw;
@@ -74,7 +74,7 @@
   color: white;
   opacity: 0.7;
   font-family: Roboto;
-  font-size: 1.55vw;
+  font-size: calc(12px + 0.9vmin);
   font-weight: 400;
   padding-left: 1.5vw;
   padding-right: 1.5vw;

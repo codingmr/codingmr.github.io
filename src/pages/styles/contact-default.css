@@ -5,25 +5,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: radial-gradient(ellipse at top, #014c79 0%, #111f31 70%);
+  color: #E9BCB7;
 }
+#contact-text {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-size: calc(10px + 1.2vmin);
+}
+
 #contact-body {
   padding-top: 5vh;
   padding-bottom: 5vh;
   color: white;
 }
 #contact-form {
-  padding-left: 10px;
-  padding-right: 10px;
-  max-width: 568px;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  width: 100%;
+  max-width: calc(320px + 30vw);
 }
 #contact-email {
-  max-width: 320px;
+  max-width: 70%;
 }
+
 #contact-message {
-  max-width: 568px;
+  max-width: 100%;
 }
 #contact-response {
-  max-width: 568px;
+  max-width: 100%;
   visibility: hidden;
 }
 #contact-submit-group {

@@ -1,3 +1,13 @@
+@keyframes opacity {
+  from {
+    background-color: none;
+  }
+  to {
+    background-color: grey;
+  }
+
+}
+
 #showcase-view {
   height: auto;
   min-height: 100vh;
@@ -10,6 +20,8 @@
   display: flex;
   justify-content: center;
   color: white;
+  background: linear-gradient(to right, #111f31, #014c79, #111f31);
+  color: #E9BCB7;
 }
 #showcase-body {
   display: flex;
@@ -52,7 +64,7 @@
 }
 
 #text {
-  font-size: 1.88vw;
+  font-size: calc(10px + 3vmin);
 }
 
 #screen-overlay {
@@ -73,14 +85,18 @@
   width: 100%;
 }
 
-#section-title {
+#showcase-title {
   font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
   color: rgb(212, 212, 212);
-  font-size: 3.30vw;
+  font-size: calc(16px + 5vmin);
 }
 #showcase-section-body {
   max-width: 100%;
   background-color: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 #screen {
@@ -113,24 +129,34 @@
 #pullLeft {
   display: flex;
   margin: auto;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 #pullLeft:hover {
-  opacity: 0.8;
+  opacity: 0.7;
   cursor: pointer;
   transition: opacity 450ms;
 }
 
+#pullLeft:active {
+  background-color: grey;
+  border-radius: 100%;
+}
+#pullRight:active {
+  background-color: grey;
+  border-radius: 100%;
+}
+
+
 #pullRight:hover {
-  opacity: 0.8;
+  opacity: 0.7;
   cursor: pointer;
   transition: opacity 450ms;
 }
 
 #pullRight {
-  opacity: 0.7;
   display: flex;
+  opacity: 0.5;
   margin: auto;
 }
 #screen-content-default {
@@ -154,7 +180,9 @@
 }
 
 #showcase-section-text {
-  margin-top: 20%;
+  font-size: calc(10px + 1.2vmin);
+  width: 52vw;
+  text-align: left;
 }
 
 #over {

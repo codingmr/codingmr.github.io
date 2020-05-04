@@ -29,7 +29,7 @@ import python from '../media/icons/ic_python.svg';
 import stackoverflow from '../media/icons/ic_stackoverflow.svg';
 import java from '../media/icons/ic_java.svg';
 
-import LightSpeed from 'react-reveal/LightSpeed';
+import Fade from 'react-reveal/Fade';
 
 // icons still to add:
 // bash, cmd, ssh, jest, eslint, prettier, metrobundler, gradle, agile method
@@ -44,7 +44,7 @@ export default class Skills extends React.Component {
       <Element id="skills-view">
         <div id="skills-body">
           <div id="section-body">
-            <LightSpeed left>
+            <Fade bottom>
             <OverlineItem
               title={"Web & Mobile frontend UI/UX design"}
               description={
@@ -55,8 +55,8 @@ export default class Skills extends React.Component {
                       {key: 2, src: inkscape, toolTip: "Inkscape" },
                       {key: 3, src: adobeaftereffects, toolTip: "Adobe After Effects" }]}
             />
-            </LightSpeed>
-            <LightSpeed right>
+            </Fade>
+            <Fade bottom>
             <OverlineItem
               title={"Responsive web development"}
               description={
@@ -72,8 +72,8 @@ export default class Skills extends React.Component {
                       {key: 7, src: bootstrap, toolTip: "React bootstrap" }]}
 
             />
-            </LightSpeed>
-            <LightSpeed left>
+            </Fade>
+            <Fade bottom>
             <OverlineItem
               title={"Cross-platform mobile development"}
               description={
@@ -87,8 +87,8 @@ export default class Skills extends React.Component {
                       {key: 5, src: babel, toolTip: "Babel" },
                       {key: 6, src: android, toolTip: "Android" }]}
             />
-            </LightSpeed>
-            <LightSpeed right>
+            </Fade>
+            <Fade bottom>
             <OverlineItem
               title={"Continuous Integration, testing & deployment"}
               description={
@@ -100,7 +100,7 @@ export default class Skills extends React.Component {
                       {key: 3, src: raspberrypi, toolTip: "Raspberry Pi" },
                       {key: 4, src: playstore, toolTip: "Google Playstore" }]}
             />
-            </LightSpeed>
+            </Fade>
           </div>
         </div>
       </Element>

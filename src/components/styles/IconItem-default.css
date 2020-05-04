@@ -1,6 +1,6 @@
 #icon_img {
-  height: 7vh;
-  width: 7vh;
+  height: calc(16px + 4vmin);
+  width: calc(16px + 4vmin);
 
   min-height: 20px;
   min-width: 20px;
@@ -25,7 +25,7 @@
   color: white;
   opacity: 0.7;
   font-family: Roboto;
-  font-size: 1.55vw;
+  font-size: calc(8px + 0.7vmin);
   font-weight: 500;
   text-transform: uppercase;
 

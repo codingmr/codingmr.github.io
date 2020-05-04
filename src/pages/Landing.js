@@ -21,6 +21,7 @@ export default class Landing extends React.Component {
 
     render() {
         return (
+          <>
           <Element id="landing-view">
             <div id="align-center">
               <Flip bottom when={this.componentDidMount}>
@@ -31,7 +32,7 @@ export default class Landing extends React.Component {
               <Fade bottom>
                 <div id="welcome-info-body">
                   <p id="welcome-info-text">Welcome to my portfolio!</p>
-                  <p id="welcome-info-text-italic">Pizza, coffee, a pinch of magic and imagination can become reality</p>
+                  <p id="welcome-info-text-italic">Pizza, coffee, a pinch of magic and imagination becomes reality</p>
                 </div>
 
               <a id="connect-button" href="https://github.com/codingmr" color="info">
@@ -41,6 +42,8 @@ export default class Landing extends React.Component {
 
             </div>
         </Element>
+        <div id="background-overlay"></div>
+        </>
         );
     }
 }

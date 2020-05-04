@@ -52,9 +52,9 @@ export default class NavigationControl extends React.Component {
     })
   }
 
-  gotoProjects() {
+  gotoShowcase() {
     if (this.state.isOpen) {this.setState({isOpen: false})}
-    scroller.scrollTo('projects-view', {
+    scroller.scrollTo('showcase-view', {
       duration: 800,
       delay: 0,
       smooth: 'easeInOutQuart'
@@ -136,7 +136,7 @@ export default class NavigationControl extends React.Component {
                 <Button id="nav-button" color="link"onClick={() => this.gotoSkills()}>Skills</Button>
               </NavItem>
               <NavItem id="nav-item">
-                <Button id="nav-button" color="link"onClick={() => this.gotoProjects()}>Projects</Button>
+                <Button id="nav-button" color="link"onClick={() => this.gotoShowcase()}>Showcase</Button>
               </NavItem>
               <NavItem id="nav-item">
                 <Button id="nav-button" color="link"onClick={() => this.gotoContact()}>Contact</Button>
@@ -159,7 +159,7 @@ export default class NavigationControl extends React.Component {
                 <Button id="nav-button" color="link"onClick={() => this.gotoSkills()}>Skills</Button>
               </NavItem>
               <NavItem id="nav-item">
-                <Button id="nav-button" color="link"onClick={() => this.gotoProjects()}>Projects</Button>
+                <Button id="nav-button" color="link"onClick={() => this.gotoShowcase()}>Showcase</Button>
               </NavItem>
               <NavItem id="nav-item">
                 <Button id="nav-button" color="link"onClick={() => this.gotoContact()}>Contact</Button>

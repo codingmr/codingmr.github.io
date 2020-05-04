@@ -7,6 +7,7 @@ import { Button,
 } from 'reactstrap';
 
 import { Element } from 'react-scroll'
+import Flash from 'react-reveal/Flash';
 
 import './styles/contact-default.css';
 
@@ -25,6 +26,14 @@ export default class Contact extends React.Component {
         return (
             <Element id="contact-view">
               <div id="contact-body">
+
+                <Flash>
+                <div id="contact-text">
+                  <h2 id="about-title">Contact me</h2>
+                  <p>Feel free to contact me at codingmroberts@gmail.com, or leave your email with me using the form below and I'll contact you as soon as I'm available.</p>
+                </div>
+                </Flash>
+                
                 <Form
                   id="contact-form"
                   onSubmit={this.submitForm}
@@ -33,11 +42,11 @@ export default class Contact extends React.Component {
                   >
 
                   <FormGroup id="contact-email">
-                    <Label for="exampleEmail">Email:</Label>
+                    <Label for="exampleEmail">Your email:</Label>
                     <Input type="email" placeholder="example@gmail.com" id="exampleEmail" name="email" />
                   </FormGroup>
                   <FormGroup id="contact-message">
-                    <Label for="exampleText">Message:</Label>
+                    <Label for="exampleText">Message [optional]:</Label>
                     <Input type="textarea" name="text" id="exampleText" />
                   </FormGroup>
                   <FormGroup id="contact-submit-group">
@@ -45,7 +54,7 @@ export default class Contact extends React.Component {
                     {status === "SUCCESS" ? <p>Thank you! Sending message was successful.</p> : <Button id="contact-submit">Submit</Button>}
                     {status === "ERROR" && <p>Error! Sending message was unsuccessful. Please contact me at codingmroberts@gmail.com</p>}
                   </FormGroup>
-              </Form>
+                </Form>
               </div>
             </Element>
         );

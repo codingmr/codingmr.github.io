@@ -18,7 +18,10 @@ import icon_left from '../media/arrowDoubleleft.svg';
 import './styles/showcase-default.css';
 
 import { Element } from 'react-scroll'
+import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
+import Pulse from 'react-reveal/Pulse';
+
 
 const NUMBER_PAGES = 2;
 
@@ -30,7 +33,24 @@ export default class Showcase extends React.Component {
     this.lastPage = this.lastPage.bind(this);
 
     this.state = {
-      pageSelectedIndex: 1    }
+      pageSelectedIndex: 1,
+      switching: false
+    }
+  }
+
+  componentDidMount(){
+    this.switch()
+  }
+
+  switch(){
+    this.setState({switching: false})
+    // wait for animation to finish
+    setTimeout(function()
+      {
+        this.setState({switching: true});
+      }.bind(this),
+      400
+    );
   }
 
   nextPage() {
@@ -39,6 +59,12 @@ export default class Showcase extends React.Component {
     if (tempIndex !== NUMBER_PAGES){
       tempIndex += 1;
       this.setState({pageSelectedIndex: tempIndex})
+      this.switch()
+    }
+    else {
+      tempIndex = 1;
+      this.setState({pageSelectedIndex: tempIndex})
+      this.switch()
     }
   }
 
@@ -47,6 +73,12 @@ export default class Showcase extends React.Component {
     if (tempIndex !== 1){
       tempIndex -= 1;
       this.setState({pageSelectedIndex: tempIndex})
+      this.switch()
+    }
+    else {
+      tempIndex = 2;
+      this.setState({pageSelectedIndex: tempIndex})
+      this.switch()
     }
   }
 
@@ -67,7 +99,7 @@ export default class Showcase extends React.Component {
                         </div>
                         <div id="dunno">
                           <img id="over" src={device_overlay} />
-
+                          <Zoom when={this.state.switching}>
                           { (this.state.pageSelectedIndex===1) ? (
                             <div id="screen-content-default">
                               <img id="screen-icon" src={coffeeCup} />
@@ -77,6 +109,7 @@ export default class Showcase extends React.Component {
                               <img id="screen-icon" src={worriedBill} />
                             </div>
                           )}
+                          </Zoom>
                         </div>
 
                         </Zoom>
@@ -84,28 +117,29 @@ export default class Showcase extends React.Component {
                     </div>
                     <div id="showcase-section-text">
 
+                    <Fade bottom when={this.state.switching}>
                     { (this.state.pageSelectedIndex===1) ? (
-                      <Zoom right>
-                      <h2 id="section-title">Showcase</h2>
-                      <p id="text">
+                      <>
+                      <h2 id="showcase-title">Showcase</h2>
+                      <p>
                         Check out the projects I've worked on.
                       </p>
-                      <p id="text">
+                      <p>
                         Use the left and right navigation buttons on the display phone.
                       </p>
-                      </Zoom>
+                      </>
                     ) : (
                       <>
-                      <h2 id="section-title">Bill! Split the Bill</h2>
-                      <p id="text">
+                      <h2 id="showcase-title">Bill! Split the Bill</h2>
+                      <p>
                         My first software development that completed a full life cycle (Design -> Development -> Testing -> Production -> Release)
                       </p>
-                      <p id="text">
+                      <p>
                         Visit the Play store. Visit the Github repo.
                       </p>
                       </>
-                    )
-                    }
+                    )}
+                    </Fade>
 
 
                     </div>

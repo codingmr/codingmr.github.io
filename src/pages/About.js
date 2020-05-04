@@ -6,7 +6,7 @@ import thumbsUp from '../media/thumbsUp.svg';
 import './styles/about-default.css';
 
 import { Element } from 'react-scroll'
-import Slide from 'react-reveal/Slide';
+import Zoom from 'react-reveal/Zoom';
 
 export default class About extends React.Component {
     render() {
@@ -15,13 +15,13 @@ export default class About extends React.Component {
               <div id="about-body">
                 <div id="section-body">
                     <div id="img-body">
-                      <Slide right>
+                      <Zoom bottom>
                       <img id="img" src={thumbsUp} alt="Node Network" />
-                      </Slide>
+                      </Zoom>
                     </div>
                     <div id="section-text">
-                      <Slide left>
-                      <h2 id="section-title">About me</h2>
+                      <Zoom>
+                      <h2 id="about-title">About me</h2>
                       <p>
                           I'm super interested in how things work, function, operate and most of all how
                           actions can be automated. The projects that I've worked on so far have been
@@ -38,7 +38,7 @@ export default class About extends React.Component {
                       <p>
                           Some technologies I'm familiar with are: <b>MySQL</b>, <b>React</b>, <b>Java</b> and <b>Python</b>
                       </p>
-                      </Slide>
+                      </Zoom>
                     </div>
                 </div>
               </div>
