@@ -1,10 +1,12 @@
 import React from 'react';
 
-import net_graph from '../media/net_graph.png';
+import thumbsUp from '../media/thumbsUp.svg';
+
 
 import './styles/about-default.css';
 
 import { Element } from 'react-scroll'
+import Slide from 'react-reveal/Slide';
 
 export default class About extends React.Component {
     render() {
@@ -13,9 +15,12 @@ export default class About extends React.Component {
               <div id="about-body">
                 <div id="section-body">
                     <div id="img-body">
-                      <img id="img" src={net_graph} alt="Node Network" />
+                      <Slide right>
+                      <img id="img" src={thumbsUp} alt="Node Network" />
+                      </Slide>
                     </div>
                     <div id="section-text">
+                      <Slide left>
                       <h2 id="section-title">About me</h2>
                       <p>
                           I'm super interested in how things work, function, operate and most of all how
@@ -33,6 +38,7 @@ export default class About extends React.Component {
                       <p>
                           Some technologies I'm familiar with are: <b>MySQL</b>, <b>React</b>, <b>Java</b> and <b>Python</b>
                       </p>
+                      </Slide>
                     </div>
                 </div>
               </div>
