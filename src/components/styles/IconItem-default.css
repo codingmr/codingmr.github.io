@@ -1,19 +1,16 @@
 #icon_img {
-  max-width: 64px;
-  max-height: 64px;
+  height: 7vh;
+  width: 7vh;
 
-  height: 7vw;
-  width: 7vw;
-
-  min-height: 16px;
-  min-width: 16px;
+  min-height: 20px;
+  min-width: 20px;
 }
 
 #icon-back {
   flex-direction: row;
   display: flex;
   align-items: center;
-  padding: 2px;
+  padding-top: 2vh;
   opacity: 1;
   cursor: pointer;
 }
@@ -28,15 +25,14 @@
   color: white;
   opacity: 0.7;
   font-family: Roboto;
-  font-size: 1.23vw;
+  font-size: 1.55vw;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 1px;
 
   width: 100%;
   margin: auto;
-  padding-left: 5px;
-  padding-right: 10px;
+  padding-left: 1.125vw;
+  padding-right: 2vw;
   display: flex;
   height: 100%;
 
@@ -44,8 +40,8 @@
 }
 
 #icon {
-  margin-top: 5px;
-  margin-left: 5px;
+  margin-top: 2.5vh;
+  margin-left: 2vw;
   cursor: pointer;
 
 }

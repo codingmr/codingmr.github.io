@@ -1,7 +1,7 @@
 {
   "name": "codingmr.github.io",
   "homepage": "http://codingmr.github.io",
-  "version": "0.1.1",
+  "version": "0.3.2",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.13.0",

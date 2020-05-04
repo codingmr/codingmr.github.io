@@ -1,6 +1,8 @@
-import React from 'react';
+/*
+* Quick draft. Needs substantial work.
+*/
 
-import Carousel from 'react-bootstrap/Carousel';
+import React from 'react';
 
 import device_phone from '../media/device_phone_trans.svg';
 import device_overlay from '../media/device_phone_overlay.svg';

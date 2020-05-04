@@ -36,7 +36,6 @@
 
 #scale {
   width: 100%;
-  height: 100%;
   z-index: 33;
 }
 
@@ -99,7 +98,6 @@
   flex-direction: row;
   display: flex;
 }
-
 
 #icon_right {
   width: 5vh;

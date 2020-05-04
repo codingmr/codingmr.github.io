@@ -16,9 +16,8 @@
   background-color: inherit;
 }
 #img {
-  max-width: inherit;
-  float: left;
-  padding: 20px;
+  width: 50%;
+  float: right;
 }
 #section-title {
   font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
@@ -27,11 +26,11 @@
 #section-body {
   max-width: 100%;
   background-color: inherit;
-  padding: 20px;
 }
 #img-body {
   max-width: inherit;
 }
 #section-text {
   height: inherit;
+  font-size: 1.5vw;
 }
