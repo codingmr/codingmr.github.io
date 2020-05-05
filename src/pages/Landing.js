@@ -26,7 +26,7 @@ export default class Landing extends React.Component {
             <div id="align-center">
               <Flip bottom when={this.componentDidMount}>
                 <h1 id="title">Matt Roberts</h1>
-                <h2 id="subtitle">Software Engineer</h2>
+                <h2 id="subtitle">Software Developer</h2>
               </Flip>
               <hr id="line-breaker" />
               <Fade bottom>
