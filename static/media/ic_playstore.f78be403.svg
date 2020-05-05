@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="Google-Play-icon-Symbol-instance">
+    <g id="Google-Play-icon">
+      <path d="M0 0L48 0L48 48L0 48L0 0Z" id="Background" fill="none" stroke="none" />
+      <path d="M0.705 0C0.292 0.107 0 0.464 0 1.078C0 2.88 0 19.873 0 19.873C0 19.873 0 38.237 0 39.048C0 39.494 0.197 39.793 0.5 39.904L20.681 19.84L0.705 0L0.705 0Z" transform="translate(7 4.04303)" id="Shape" fill="#4DB6AC" stroke="none" />
+      <path d="M25.532 14.3522L17.225 9.5562C17.225 9.5562 1.98 0.753197 1.084 0.236198C0.696 0.0121965 0.314 -0.0468035 0 0.0351968L19.977 19.8752L25.532 14.3522L25.532 14.3522Z" transform="translate(7.705078 4.007813)" id="Shape" fill="#DCE775" stroke="none" />
+      <path d="M0.917 19.919C1.449 19.611 16.201 11.094 25.782 5.562L20.181 0L0 20.064C0.248 20.155 0.566 20.121 0.917 19.919L0.917 19.919Z" transform="translate(7.5 23.883)" id="Shape" fill="#D32F2F" stroke="none" />
+      <path d="M13.717 4.711C12.921 4.282 5.617 0.0349998 5.617 0.0349998L5.556 0L0 5.523L5.601 11.085C10.033 8.526 13.362 6.605 13.66 6.432C14.604 5.888 14.513 5.14 13.717 4.711L13.717 4.711Z" transform="translate(27.68091 18.35999)" id="Shape" fill="#FBC02D" stroke="none" />
+    </g>
+  </g>
+</svg>
