@@ -5,8 +5,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: radial-gradient(ellipse at top, #014c79 0%, #111f31 70%);
-  color: #E9BCB7;
+  background-color: rgb(7, 113, 135);
+  color: #fffaf0;
 }
 #contact-text {
   padding-left: 5vw;

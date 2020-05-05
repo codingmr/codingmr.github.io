@@ -6,9 +6,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  background: linear-gradient(to right, #111f31, #014c79, #111f31);
-  color: #E9BCB7;
+  background: rgb(7, 79, 87);
+  color: #fffaf0;
 }
 #about-body {
   display: flex;
