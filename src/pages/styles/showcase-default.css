@@ -72,10 +72,12 @@
   align-items: center;
   justify-content: center;
 }
+/* Fine scaling magic to fit most aspect ratios and screen sizes */
 #dunno {
   position: absolute;
   width: calc(94vh * (42.453/75.993));
-  max-width: 82%;
+  max-width: calc(82% + 10vh - 15vw);
+  background-color: black;
   max-height: 78%;
   height: calc(78vw * (75.993/42.453));
 }
