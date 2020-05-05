@@ -1,7 +1,5 @@
 import React from "react";
 
-import net_graph from "../media/net_graph.png";
-
 import "./styles/skills-default.css";
 import OverlineItem from "../components/OverlineItem.js";
 
