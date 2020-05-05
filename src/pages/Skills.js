@@ -48,7 +48,17 @@ export default class Skills extends React.Component {
             <OverlineItem
               title={"Web & Mobile frontend UI/UX design"}
               description={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecena."
+                "First impressions are long lasting! The first look a target audience gets, will\
+                 determine whether or not they stay and experience all of the services and content\
+                 that is available. Creating a visually and emotionally appealing first impression\
+                 is something I take great deliberation in. It is the first building block in gaining the\
+                 target audiences' trust. Therefore, when designing I take into consideration many\
+                 inter connecting elements that affect their needs and requirments.\
+                 This leads to making design choices that make sense for the target audience and\
+                 delivering well fitted UI/UX. In creating these designs I've created raster graphics\
+                 in programs such as GIMP or Photoshop, and scalable vector graphics in Inkscape.\
+                 I also have some experience in creating animations using Adobe After Effects, which\
+                 have all been created in .gif and lottie\'s .json formats."
               }
               icons={[{key: 0, src: gimp, toolTip: "Gimp" },
                       {key: 1, src: lunacy, toolTip: "Lunacy" },
@@ -60,7 +70,15 @@ export default class Skills extends React.Component {
             <OverlineItem
               title={"Responsive web development"}
               description={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecena."
+                "Responsive web development consists of a mix of flexible\
+                layouts, scalable vector images and intelligent use of CSS\
+                media queries. The principle purpose is to ensure the look,\
+                feel and usability remain consistent across a multitude of\
+                devices, all with varying; platform, screen size, resolution\
+                and orientation. In order to achieve this, I have developed\
+                websites using some of the latest technologies. I have a good\
+                understanding of how to set up a react project and how to\
+                deploy the website online."
               }
               icons={[{key: 0, src: react, toolTip: "React" },
                       {key: 1, src: html, toolTip: "HTML 5" },
