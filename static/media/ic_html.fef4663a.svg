@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="Html-5-icon-Symbol-instance">
+    <g id="Html-5-icon">
+      <path d="M0 0L32 0L32 32L0 32L0 0Z" id="Background" fill="none" stroke="none" />
+      <path d="M22.6667 0L0 0L2 22.6667L11.3333 25.3333L20.6667 22.6667L22.6667 0L22.6667 0L22.6667 0Z" transform="translate(4.666667 3.333333)" id="Shape" fill="#E65100" stroke="none" />
+      <path d="M0 0L0 21.2667L7.46667 19.1333L9.13334 0L0 0Z" transform="translate(16 5.333333)" id="Shape" fill="#FF6D00" stroke="none" />
+      <path d="M6.13334 0L5.93334 2.66667L0 2.66667L0 0L6.13334 0ZM0 5.33333L0 8L2.93333 8L2.73333 11L0 11.9333L0 14.7333L5.26667 13L5.73333 5.33333L0 5.33333Z" transform="translate(16 8.666667)" id="Shape" fill="#EEEEEE" fill-rule="evenodd" stroke="none" />
+      <path d="M6.06667 2.66667L2.8 2.66667L3 5.33333L6.06667 5.33333L6.06667 8L0.466666 8L0 0L6.06667 0L6.06667 2.66667ZM6.06667 14.7333L6.06667 11.9333L3.33333 11L3.2 9.33333L0.533333 9.33333L0.8 13L6.06667 14.7333Z" transform="translate(9.933269 8.666667)" id="Shape" fill="#DDDDDD" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>
