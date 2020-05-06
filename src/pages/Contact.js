@@ -25,8 +25,8 @@ export default class Contact extends React.Component {
 							<h2 id="about-title">Contact me</h2>
 							<p>
 								Feel free to contact me at codingmroberts@gmail.com, or leave
-								your email with me using the form below and I'll contact you as
-								soon as I'm available.
+								your email with me using the form below and I will contact you
+								as soon as I am available.
 							</p>
 						</div>
 					</Flash>

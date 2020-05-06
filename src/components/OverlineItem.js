@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 import './styles/overlineItem-default.css';
 
 import IconItem from './IconItem';
@@ -27,7 +27,10 @@ export default class OverlineItem extends React.Component {
 			<div id="container">
 				<div
 					id="body"
+					role="button"
+					tabIndex={0}
 					onClick={() => this.setState({ isOpen: !this.state.isOpen })}
+					onKeyDown={() => this.setState({ isOpen: !this.state.isOpen })}
 				>
 					<p id="overline">{this.props.title}</p>
 
@@ -47,3 +50,9 @@ export default class OverlineItem extends React.Component {
 		);
 	}
 }
+
+OverlineItem.propTypes = {
+	icons: PropTypes.array,
+	title: PropTypes.string.isRequired,
+	description: PropTypes.string,
+};

@@ -48,7 +48,7 @@
   "eslintConfig": {
     "env": {
       "browser": true,
-      "jest": true
+      "node": true
     },
     "parser": "babel-eslint",
     "parserOptions": {
@@ -58,6 +58,20 @@
       "ecmaVersion": 6,
       "sourceType": "module"
     },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "plugins": [
+      "jsx-a11y",
+      "react"
+    ],
+    "extends": [
+      "plugin:jsx-a11y/recommended",
+      "plugin:react/recommended",
+      "eslint:recommended"
+    ],
     "rules": {
       "no-return-assign": [
         "off"
@@ -98,6 +112,7 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-stylelint": "^12.0.0",
     "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
     "gh-pages": "^2.2.0",
     "husky": "^4.2.5",

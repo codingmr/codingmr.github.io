@@ -10,7 +10,6 @@ import babel from '../media/icons/ic_babel.svg';
 import bootstrap from '../media/icons/ic_bootstrap.svg';
 import css from '../media/icons/ic_css.svg';
 import git from '../media/icons/ic_git.svg';
-import google from '../media/icons/ic_google.svg';
 import github from '../media/icons/ic_github.svg';
 import inkscape from '../media/icons/ic_inkscape.svg';
 import jenkins from '../media/icons/ic_jenkins.svg';
@@ -21,11 +20,7 @@ import npm from '../media/icons/ic_npm.svg';
 import playstore from '../media/icons/ic_playstore.svg';
 import raspberrypi from '../media/icons/ic_raspberrypi.svg';
 import react from '../media/icons/ic_react.svg';
-import reactnative from '../media/icons/ic_reactnative.svg';
 import html from '../media/icons/ic_html.svg';
-import python from '../media/icons/ic_python.svg';
-import stackoverflow from '../media/icons/ic_stackoverflow.svg';
-import java from '../media/icons/ic_java.svg';
 
 import Fade from 'react-reveal/Fade';
 

@@ -6,9 +6,6 @@ import React from 'react';
 
 import device_phone from '../media/device_phone_trans.svg';
 import device_overlay from '../media/device_phone_overlay.svg';
-import device_page1 from '../media/device_page1.svg';
-import device_page2 from '../media/device_page2.svg';
-import device_page3 from '../media/device_page3.svg';
 import coffeeCup from '../media/coffeeCupNew.svg';
 import worriedBill from '../media/worried-bill.svg';
 import icon_right from '../media/arrowDoubleRight.svg';
@@ -19,7 +16,6 @@ import './styles/showcase-default.css';
 import { Element } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
-import Pulse from 'react-reveal/Pulse';
 
 const NUMBER_PAGES = 2;
 
@@ -86,26 +82,34 @@ export default class Showcase extends React.Component {
 						<div id="carousel">
 							<div id="screen-overlay">
 								<Zoom>
-									<img id="scale" src={device_phone} />
+									<img id="scale" src={device_phone} alt="device_phone" />
 									<div id="test-layer"></div>
 									<div id="iphone-navigation">
-										<a onClick={this.lastPage} id="pullLeft">
-											<img id="icon_left" src={icon_left} />
-										</a>
-										<a onClick={this.nextPage} id="pullRight">
-											<img id="icon_right" src={icon_right} />
-										</a>
+										<button onClick={this.lastPage} id="pullLeft">
+											<img id="icon_left" src={icon_left} alt="icon_left" />
+										</button>
+										<button onClick={this.nextPage} id="pullRight">
+											<img id="icon_right" src={icon_right} alt="icon_right" />
+										</button>
 									</div>
 									<div id="dunno">
-										<img id="over" src={device_overlay} />
+										<img id="over" src={device_overlay} alt="device_overlay" />
 										<Zoom when={this.state.switching}>
 											{this.state.pageSelectedIndex === 1 ? (
 												<div id="screen-content-default">
-													<img id="screen-icon" src={coffeeCup} />
+													<img
+														id="screen-icon"
+														src={coffeeCup}
+														alt="coffeeCup"
+													/>
 												</div>
 											) : (
 												<div id="screen-content-bill">
-													<img id="screen-icon" src={worriedBill} />
+													<img
+														id="screen-icon"
+														src={worriedBill}
+														alt="worriedBill"
+													/>
 												</div>
 											)}
 										</Zoom>
@@ -118,7 +122,7 @@ export default class Showcase extends React.Component {
 								{this.state.pageSelectedIndex === 1 ? (
 									<>
 										<h2 id="showcase-title">Showcase</h2>
-										<p>Check out the projects I've worked on.</p>
+										<p>Check out the projects I have worked on.</p>
 										<p>
 											Use the left and right navigation buttons on the display
 											phone.
@@ -129,7 +133,7 @@ export default class Showcase extends React.Component {
 										<h2 id="showcase-title">Bill! Split the Bill</h2>
 										<p>
 											My first software development that completed a full life
-											cycle (Design -> Development -> Testing -> Production ->
+											cycle (Design - Development - Testing - Production -
 											Release)
 										</p>
 										<p>Visit the Play store. Visit the Github repo.</p>

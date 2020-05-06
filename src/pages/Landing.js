@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button, ButtonGroup } from 'reactstrap';
 
 import './styles/landing-default.css';
 

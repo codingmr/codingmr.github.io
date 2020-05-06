@@ -22,23 +22,23 @@ export default class About extends React.Component {
 							<Zoom>
 								<h2 id="about-title">About me</h2>
 								<p>
-									I'm super interested in how things work, function, operate and
-									most of all how actions can be automated. The projects that
-									I've worked on so far have been ideal for learning the
+									I am super interested in how things work, function, operate
+									and most of all how actions can be automated. The projects
+									that I have worked on so far have been ideal for learning the
 									different stages throughout a life cycle of a project. One of
 									my favourite technologies that give fast results is React,
 									infact this website was built with it!
 								</p>
 
 								<p>
-									When I'm not spending my time hitting buttons (writing code) I
-									enjoy exploring beautiful places, getting mind deep into a
+									When I am not spending my time hitting buttons (writing code)
+									I enjoy exploring beautiful places, getting mind deep into a
 									sci-fi film, or poised in some strange position,{' '}
 									<i>luckily other people do it too and call it yoga.</i>
 								</p>
 
 								<p>
-									Some technologies I'm familiar with are: <b>MySQL</b>,{' '}
+									Some technologies I am familiar with are: <b>MySQL</b>,{' '}
 									<b>React</b>, <b>Java</b> and <b>Python</b>
 								</p>
 							</Zoom>

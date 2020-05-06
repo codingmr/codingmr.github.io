@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 import './styles/IconItem-default.css';
 
 export default class IconItem extends React.Component {
@@ -10,12 +10,16 @@ export default class IconItem extends React.Component {
 			showToolTip: false,
 		};
 	}
-
 	render() {
 		return (
 			<div
 				id="icon-back"
+				role="button"
+				tabIndex={0}
 				onClick={() => this.setState({ showToolTip: !this.state.showToolTip })}
+				onKeyDown={() =>
+					this.setState({ showToolTip: !this.state.showToolTip })
+				}
 			>
 				<img id="icon_img" src={this.props.iconSrc} alt="alt Icon" />
 				{this.state.showToolTip ? (
@@ -27,3 +31,8 @@ export default class IconItem extends React.Component {
 		);
 	}
 }
+
+IconItem.propTypes = {
+	iconSrc: PropTypes.string.isRequired,
+	iconToolTip: PropTypes.string,
+};
