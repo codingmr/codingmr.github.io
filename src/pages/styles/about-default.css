@@ -9,29 +9,35 @@
   background: rgb(7, 79, 87);
   color: #fffaf0;
 }
+
 #about-body {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: inherit;
 }
+
 #img {
   width: calc(320px + 20vmin);
   max-width: 80%;
   float: right;
 }
+
 #about-title {
   font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
   color: rgb(212, 212, 212);
   font-size: calc(16px + 5vmin);
 }
+
 #section-body {
   max-width: 100%;
   background-color: inherit;
 }
+
 #img-body {
   max-width: inherit;
 }
+
 #section-text {
   height: inherit;
   font-size: calc(10px + 1.2vmin);

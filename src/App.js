@@ -9,28 +9,26 @@ import Footer from './pages/Footer';
 
 import Skills from './pages/Skills';
 
-import NavigationControl from './components/NavigationControl'
+import NavigationControl from './components/NavigationControl';
 
 class App extends Component {
-  render() {
-    return (
-
-      <div className="App">
-        <header>
-          <NavigationControl/>
-        </header>
-        <Landing/>
-        <About/>
-        <Skills/>
-        <Showcase/>
-        <Contact/>
-        <footer>
-          <Footer/>
-        </footer>
-      </div>
-
-    );
-  }
+	render() {
+		return (
+			<div className="App">
+				<header>
+					<NavigationControl />
+				</header>
+				<Landing />
+				<About />
+				<Skills />
+				<Showcase />
+				<Contact />
+				<footer>
+					<Footer />
+				</footer>
+			</div>
+		);
+	}
 }
 
 export default App;

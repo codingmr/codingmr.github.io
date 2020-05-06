@@ -1,7 +1,6 @@
 #icon_img {
   height: calc(16px + 4vmin);
   width: calc(16px + 4vmin);
-
   min-height: 20px;
   min-width: 20px;
 }
@@ -20,7 +19,6 @@
   cursor: pointer;
 }
 
-
 #tool-tip {
   color: white;
   opacity: 0.7;
@@ -28,14 +26,12 @@
   font-size: calc(8px + 0.7vmin);
   font-weight: 500;
   text-transform: uppercase;
-
   width: 100%;
   margin: auto;
   padding-left: 1.125vw;
   padding-right: 2vw;
   display: flex;
   height: 100%;
-
   cursor: pointer;
 }
 
@@ -43,5 +39,4 @@
   margin-top: 2.5vh;
   margin-left: 2vw;
   cursor: pointer;
-
 }

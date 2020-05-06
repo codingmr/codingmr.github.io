@@ -11,16 +11,15 @@
   height: 100vh;
   padding-bottom: 2vh;
   padding-right: 2vw;
-
   z-index: -1;
 }
+
 #scroll-button-visible {
   position: absolute;
   opacity: 0.44;
   border-radius: 100%;
   transition: all 250ms;
   z-index: -1;
-
   visibility: hidden;
 }
 
