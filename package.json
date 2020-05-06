@@ -23,8 +23,8 @@
     }
   },
   "lint-staged": {
-    "src/*.{css,js,json,md,yml}": "prettier --write",
-    "src/*.js": "eslint --cache --fix"
+    "*.js": "eslint --cache --fix",
+    "*.{css,js,json,md,yml}": "prettier --write"
   },
   "browserslist": {
     "production": [
