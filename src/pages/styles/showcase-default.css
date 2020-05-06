@@ -143,6 +143,12 @@
   border-radius: 100%;
 }
 
+#pullRight {
+  display: flex;
+  opacity: 0.5;
+  margin: auto;
+}
+
 #pullRight:active {
   background-color: grey;
   border-radius: 100%;
@@ -152,12 +158,6 @@
   opacity: 0.7;
   cursor: pointer;
   transition: opacity 450ms;
-}
-
-#pullRight {
-  display: flex;
-  opacity: 0.5;
-  margin: auto;
 }
 
 #screen-content-default {
