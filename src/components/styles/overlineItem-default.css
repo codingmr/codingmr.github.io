@@ -1,7 +1,7 @@
 #overline {
   color: white;
   opacity: 0.88;
-  font-family: Roboto;
+  font-family: 'Lucida Console', Monaco, monospace;
   font-size: calc(14px + 1vmin);
   font-weight: 500;
   text-transform: uppercase;
@@ -14,12 +14,11 @@
 .description_closed {
   color: white;
   opacity: 0.6;
-  font-family: Roboto;
+  font-family: 'Lucida Console', Monaco, monospace;
   font-size: calc(12px + 0.9vmin);
   font-weight: 400;
   padding-left: 1.5vw;
   padding-right: 1.5vw;
-  display: block;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   display: -webkit-box;
@@ -35,7 +34,7 @@
 .description_open {
   color: white;
   opacity: 0.9;
-  font-family: Roboto;
+  font-family: 'Lucida Console', Monaco, monospace;
   font-size: calc(12px + 0.9vmin);
   font-weight: 400;
   padding-left: 1.5vw;

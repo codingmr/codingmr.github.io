@@ -1,7 +1,6 @@
 #contact-view {
   min-height: 100vh;
   height: auto;
-  background-color: rgb(31, 40, 51);
   display: flex;
   justify-content: center;
   align-items: center;
