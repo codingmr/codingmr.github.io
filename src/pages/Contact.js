@@ -20,7 +20,7 @@ export default class Contact extends React.Component {
 		return (
 			<Element id="contact-view">
 				<div id="contact-body">
-					<Flash>
+					<Flash duration={1800}>
 						<div id="contact-text">
 							<h2 id="about-title">Contact me</h2>
 							<p>
@@ -45,23 +45,14 @@ export default class Contact extends React.Component {
 							<Input type="textarea" name="text" id="exampleText" />
 						</FormGroup>
 						<FormGroup id="contact-submit-group">
-							<p id="contact-response">
-								Error! Sending message was unsuccessful. Please contact me at
-								codingmroberts@gmail.com
-							</p>
 							{status === 'SUCCESS' ? (
-								<p>Thank you! Sending message was successful.</p>
+								<p id="contact-response-success">✔ Successfully sent message.</p>
 							) : (
 								<Button color="info" id="contact-submit">
 									Submit
 								</Button>
 							)}
-							{status === 'ERROR' && (
-								<p>
-									Error! Sending message was unsuccessful. Please contact me at
-									codingmroberts@gmail.com
-								</p>
-							)}
+							{status === 'ERROR' && <p id="contact-response-fail">✗ Message failed to send.</p>}
 						</FormGroup>
 					</Form>
 				</div>

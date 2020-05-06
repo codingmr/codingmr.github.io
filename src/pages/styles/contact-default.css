@@ -8,6 +8,14 @@
   color: #fffaf0;
 }
 
+#contact-response-fail {
+  color: rgb(204, 0, 0);
+}
+
+#contact-resonse-success {
+  color: rgb(0, 204, 0);
+}
+
 #contact-text {
   padding-left: 5vw;
   padding-right: 5vw;
