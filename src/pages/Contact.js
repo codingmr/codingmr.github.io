@@ -24,9 +24,8 @@ export default class Contact extends React.Component {
 						<div id="contact-text">
 							<h2 id="about-title">Contact me</h2>
 							<p>
-								Feel free to contact me at codingmroberts@gmail.com, or leave
-								your email with me using the form below and I will contact you
-								as soon as I am available.
+								Feel free to contact me at codingmroberts@gmail.com, or leave your email with me
+								using the form below and I will contact you as soon as I am available.
 							</p>
 						</div>
 					</Flash>
@@ -39,12 +38,7 @@ export default class Contact extends React.Component {
 					>
 						<FormGroup id="contact-email">
 							<Label for="exampleEmail">Your email:</Label>
-							<Input
-								type="email"
-								placeholder="example@gmail.com"
-								id="exampleEmail"
-								name="email"
-							/>
+							<Input type="email" placeholder="example@gmail.com" id="exampleEmail" name="email" />
 						</FormGroup>
 						<FormGroup id="contact-message">
 							<Label for="exampleText">Message [optional]:</Label>
@@ -58,7 +52,9 @@ export default class Contact extends React.Component {
 							{status === 'SUCCESS' ? (
 								<p>Thank you! Sending message was successful.</p>
 							) : (
-								<Button id="contact-submit">Submit</Button>
+								<Button color="info" id="contact-submit">
+									Submit
+								</Button>
 							)}
 							{status === 'ERROR' && (
 								<p>

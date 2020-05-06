@@ -10,8 +10,6 @@ import Flip from 'react-reveal/Flip';
 import Fade from 'react-reveal/Fade';
 
 export default class Landing extends React.Component {
-	componentDidUpdate() {}
-
 	render() {
 		return (
 			<>
@@ -26,16 +24,11 @@ export default class Landing extends React.Component {
 							<div id="welcome-info-body">
 								<p id="welcome-info-text">Welcome to my portfolio!</p>
 								<p id="welcome-info-text-italic">
-									Pizza, coffee, a pinch of magic and imagination becomes
-									reality
+									Pizza, coffee, a pinch of magic and imagination becomes reality
 								</p>
 							</div>
 
-							<a
-								id="connect-button"
-								href="https://github.com/codingmr"
-								color="info"
-							>
+							<a id="connect-button" href="https://github.com/codingmr" color="info">
 								<img id="icon_welcome_img" src={github} alt="Github Icon" />
 							</a>
 						</Fade>

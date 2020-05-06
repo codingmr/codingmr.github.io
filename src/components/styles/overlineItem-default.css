@@ -14,7 +14,7 @@
 .description_closed {
   color: white;
   opacity: 0.6;
-  font-family: 'Lucida Console', Monaco, monospace;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
   font-size: calc(12px + 0.9vmin);
   font-weight: 400;
   padding-left: 1.5vw;
@@ -34,7 +34,7 @@
 .description_open {
   color: white;
   opacity: 0.9;
-  font-family: 'Lucida Console', Monaco, monospace;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
   font-size: calc(12px + 0.9vmin);
   font-weight: 400;
   padding-left: 1.5vw;

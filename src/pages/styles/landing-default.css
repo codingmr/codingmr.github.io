@@ -57,14 +57,14 @@
 
 #title {
   font-size: calc(16px + 16vmin);
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, Charcoal, sans-serif;
   color: rgba(62, 139, 131, 0.9);
   text-align: center;
 }
 
 #subtitle {
   font-size: calc(14px + 8vmin);
-  font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
+  font-family: Impact, Haettenschweiler, Charcoal, sans-serif;
   color: #fffaf0;
   text-align: center;
 }
