@@ -31,9 +31,9 @@ export default class About extends React.Component {
 								</p>
 
 								<p>
-									When I am not spending my time hitting buttons (writing code) I enjoy exploring
-									beautiful places, getting mind deep into a sci-fi film, or poised in some strange
-									position, <i>luckily other people do it too and call it yoga.</i>
+									When I am not spending my time writing code, I enjoy exploring beautiful places,
+									getting mind deep into a sci-fi film, or poised in some strange position,{' '}
+									<i>luckily other people do it too and call it yoga.</i>
 								</p>
 
 								<p>
