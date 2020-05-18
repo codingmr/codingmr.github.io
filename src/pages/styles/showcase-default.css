@@ -1,18 +1,8 @@
-@keyframes opacity {
-  from {
-    background-color: none;
-  }
-
-  to {
-    background-color: grey;
-  }
-}
-
 #showcase-view {
   height: auto;
   min-height: 100vh;
   padding-top: 5vh;
-  background-color: rgb(21, 40, 51);
+  background: rgb(7, 79, 87);
   padding-bottom: 5vh;
   padding-right: 5vw;
   padding-left: 5vw;
@@ -131,32 +121,10 @@
   opacity: 0.5;
 }
 
-#pullLeft:hover {
-  opacity: 0.7;
-  cursor: pointer;
-  transition: opacity 450ms;
-}
-
-#pullLeft:active {
-  background-color: grey;
-  border-radius: 100%;
-}
-
 #pullRight {
   display: flex;
   opacity: 0.5;
   margin: auto;
-}
-
-#pullRight:active {
-  background-color: grey;
-  border-radius: 100%;
-}
-
-#pullRight:hover {
-  opacity: 0.7;
-  cursor: pointer;
-  transition: opacity 450ms;
 }
 
 #screen-content-default {
