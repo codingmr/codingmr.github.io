@@ -116,7 +116,7 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.2.2",
     "prettier": "^2.0.5",
-    "react-dev-utils": "^10.2.1",
+    "react-dev-utils": "^11.0.4",
     "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0"
   }
