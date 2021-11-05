@@ -86,14 +86,26 @@ export default class Showcase extends React.Component {
 									<div id="test-layer"></div>
 									<div id="iphone-navigation">
 										<button onClick={this.lastPage} id="pullLeft">
-											<img id="icon_left" src={icon_left} alt="icon_left" />
+											<img id="icon_left" src={icon_left} alt="icon_left" width="32" height="32" />
 										</button>
 										<button onClick={this.nextPage} id="pullRight">
-											<img id="icon_right" src={icon_right} alt="icon_right" />
+											<img
+												id="icon_right"
+												src={icon_right}
+												alt="icon_right"
+												width="32"
+												height="32"
+											/>
 										</button>
 									</div>
 									<div id="dunno">
-										<img id="over" src={device_overlay} alt="device_overlay" />
+										<img
+											id="over"
+											src={device_overlay}
+											alt="device_overlay"
+											width="300"
+											height="150"
+										/>
 										<Zoom when={this.state.switching}>
 											{this.state.pageSelectedIndex === 1 ? (
 												<div id="screen-content-default">
@@ -101,15 +113,13 @@ export default class Showcase extends React.Component {
 														id="screen-icon"
 														src={coffeeCup}
 														alt="coffeeCup"
+														width="512"
+														height="512"
 													/>
 												</div>
 											) : (
 												<div id="screen-content-bill">
-													<img
-														id="screen-icon"
-														src={worriedBill}
-														alt="worriedBill"
-													/>
+													<img id="screen-icon" src={worriedBill} alt="worriedBill" />
 												</div>
 											)}
 										</Zoom>
@@ -123,18 +133,14 @@ export default class Showcase extends React.Component {
 									<>
 										<h2 id="showcase-title">Showcase</h2>
 										<p>Check out the projects I have worked on.</p>
-										<p>
-											Use the left and right navigation buttons on the display
-											phone.
-										</p>
+										<p>Use the left and right navigation buttons on the display phone.</p>
 									</>
 								) : (
 									<>
 										<h2 id="showcase-title">Bill! Split the Bill</h2>
 										<p>
-											My first software development that completed a full life
-											cycle (Design - Development - Testing - Production -
-											Release)
+											My first software development that completed a full life cycle (Design -
+											Development - Testing - Production - Release)
 										</p>
 										<p>Visit the Play store. Visit the Github repo.</p>
 									</>

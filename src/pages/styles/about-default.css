@@ -21,6 +21,7 @@
   width: calc(320px + 20vmin);
   max-width: 80%;
   float: right;
+  height: auto;
 }
 
 #about-title {

@@ -30,7 +30,13 @@ export default class Landing extends React.Component {
 						</Fade>
 						<Fade duration={2000} delay={1100}>
 							<a id="connect-button" href="https://github.com/codingmr" color="info">
-								<img id="icon_welcome_img" src={github} alt="Github Icon" />
+								<img
+									id="icon_welcome_img"
+									src={github}
+									alt="Github Icon"
+									width="150"
+									height="150"
+								/>
 							</a>
 						</Fade>
 					</div>
