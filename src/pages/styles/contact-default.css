@@ -52,3 +52,8 @@
   display: flex;
   flex-direction: column-reverse;
 }
+
+#contact-submit {
+  color: #06303f;
+  text-transform: uppercase;
+}

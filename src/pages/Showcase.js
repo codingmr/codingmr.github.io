@@ -82,7 +82,7 @@ export default class Showcase extends React.Component {
 						<div id="carousel">
 							<div id="screen-overlay">
 								<Zoom>
-									<img id="scale" src={device_phone} alt="device_phone" />
+									<img id="scale" src={device_phone} alt="device_phone" width="300" height="150" />
 									<div id="test-layer"></div>
 									<div id="iphone-navigation">
 										<button onClick={this.lastPage} id="pullLeft">
@@ -103,8 +103,8 @@ export default class Showcase extends React.Component {
 											id="over"
 											src={device_overlay}
 											alt="device_overlay"
-											width="300"
-											height="150"
+											width="161"
+											height="287"
 										/>
 										<Zoom when={this.state.switching}>
 											{this.state.pageSelectedIndex === 1 ? (
@@ -119,7 +119,13 @@ export default class Showcase extends React.Component {
 												</div>
 											) : (
 												<div id="screen-content-bill">
-													<img id="screen-icon" src={worriedBill} alt="worriedBill" />
+													<img
+														id="screen-icon"
+														src={worriedBill}
+														alt="worriedBill"
+														width="370"
+														height="379"
+													/>
 												</div>
 											)}
 										</Zoom>
