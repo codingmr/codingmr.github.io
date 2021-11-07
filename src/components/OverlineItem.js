@@ -26,7 +26,7 @@ export default class OverlineItem extends React.Component {
 		return (
 			<div id="container">
 				<div
-					id="body"
+					className="section"
 					role="button"
 					tabIndex={0}
 					onClick={() => this.setState({ isOpen: !this.state.isOpen })}

@@ -5,7 +5,7 @@
   min-width: 20px;
 }
 
-#icon-back {
+.icon-back {
   flex-direction: row;
   display: flex;
   align-items: center;
@@ -14,7 +14,7 @@
   cursor: pointer;
 }
 
-#icon-back:hover {
+.icon-back:hover {
   opacity: 0.88;
   cursor: pointer;
 }

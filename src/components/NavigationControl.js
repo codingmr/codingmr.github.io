@@ -119,27 +119,27 @@ export default class NavigationControl extends React.Component {
 						<NavbarToggler id="hamburger" onClick={this.toggle} />
 						<Collapse isOpen={this.state.isOpen} navbar>
 							<Nav className="ml-auto" navbar>
-								<NavItem id="nav-item">
+								<NavItem id="nav-item-home" className="nav-item">
 									<Button id="home" color="link" onClick={() => this.gotoTop()}>
 										Home
 									</Button>
 								</NavItem>
-								<NavItem id="nav-item">
+								<NavItem id="nav-item-about" className="nav-item">
 									<Button id="about" color="link" onClick={() => this.gotoAbout()}>
 										About
 									</Button>
 								</NavItem>
-								<NavItem id="nav-item">
+								<NavItem id="nav-item-skills" className="nav-item">
 									<Button id="skills" color="link" onClick={() => this.gotoSkills()}>
 										Skills
 									</Button>
 								</NavItem>
-								<NavItem id="nav-item">
+								<NavItem id="nav-item-showcase" className="nav-item">
 									<Button id="showcase" color="link" onClick={() => this.gotoShowcase()}>
 										Showcase
 									</Button>
 								</NavItem>
-								<NavItem id="nav-item">
+								<NavItem id="nav-item-contact" className="nav-item">
 									<Button id="contact" color="link" onClick={() => this.gotoContact()}>
 										Contact
 									</Button>
@@ -152,28 +152,28 @@ export default class NavigationControl extends React.Component {
 						<NavbarToggler id="hamburger" onClick={this.toggle} />
 						<Collapse isOpen={this.state.isOpen} navbar>
 							<Nav className="ml-auto" navbar>
-								<NavItem id="nav-item">
-									<Button id="nav-button" color="link" onClick={() => this.gotoTop()}>
+								<NavItem id="nav-item-home" className="nav-item">
+									<Button id="home" color="link" onClick={() => this.gotoTop()}>
 										Home
 									</Button>
 								</NavItem>
-								<NavItem id="nav-item">
-									<Button id="nav-button" color="link" onClick={() => this.gotoAbout()}>
+								<NavItem id="nav-item-about" className="nav-item">
+									<Button id="about" color="link" onClick={() => this.gotoAbout()}>
 										About
 									</Button>
 								</NavItem>
-								<NavItem id="nav-item">
-									<Button id="nav-button" color="link" onClick={() => this.gotoSkills()}>
+								<NavItem id="nav-item-skills" className="nav-item">
+									<Button id="skills" color="link" onClick={() => this.gotoSkills()}>
 										Skills
 									</Button>
 								</NavItem>
-								<NavItem id="nav-item">
-									<Button id="nav-button" color="link" onClick={() => this.gotoShowcase()}>
+								<NavItem id="nav-item-showcase" className="nav-item">
+									<Button id="showcase" color="link" onClick={() => this.gotoShowcase()}>
 										Showcase
 									</Button>
 								</NavItem>
-								<NavItem id="nav-item">
-									<Button id="nav-button" color="link" onClick={() => this.gotoContact()}>
+								<NavItem id="nav-item-contact" className="nav-item">
+									<Button id="contact" color="link" onClick={() => this.gotoContact()}>
 										Contact
 									</Button>
 								</NavItem>

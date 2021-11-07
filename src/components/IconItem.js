@@ -13,20 +13,14 @@ export default class IconItem extends React.Component {
 	render() {
 		return (
 			<div
-				id="icon-back"
+				className="icon-back"
 				role="button"
 				tabIndex={0}
 				onClick={() => this.setState({ showToolTip: !this.state.showToolTip })}
-				onKeyDown={() =>
-					this.setState({ showToolTip: !this.state.showToolTip })
-				}
+				onKeyDown={() => this.setState({ showToolTip: !this.state.showToolTip })}
 			>
 				<img id="icon_img" src={this.props.iconSrc} alt="alt Icon" />
-				{this.state.showToolTip ? (
-					<p id="tool-tip">{this.props.iconToolTip}</p>
-				) : (
-					<p></p>
-				)}
+				{this.state.showToolTip ? <p id="tool-tip">{this.props.iconToolTip}</p> : <p></p>}
 			</div>
 		);
 	}
