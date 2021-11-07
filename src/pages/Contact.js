@@ -2,7 +2,6 @@ import React from 'react';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 import { Element } from 'react-scroll';
-import Flash from 'react-reveal/Flash';
 
 import './styles/contact-default.css';
 
@@ -20,15 +19,13 @@ export default class Contact extends React.Component {
 		return (
 			<Element id="contact-view">
 				<div id="contact-body">
-					<Flash duration={1800}>
-						<div id="contact-text">
-							<h2 id="about-title">Contact me</h2>
-							<p>
-								Feel free to contact me at codingmroberts@gmail.com, or leave your email with me
-								using the form below and I will contact you as soon as I am available.
-							</p>
-						</div>
-					</Flash>
+					<div id="contact-text">
+						<h2 id="about-title">Contact me</h2>
+						<p id="contact-description">
+							Feel free to contact me at codingmroberts@gmail.com, or leave your email with me using
+							the form below and I will contact you as soon as I am available.
+						</p>
+					</div>
 
 					<Form
 						id="contact-form"

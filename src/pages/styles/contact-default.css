@@ -12,7 +12,7 @@
   color: rgb(204, 0, 0);
 }
 
-#contact-resonse-success {
+#contact-response-success {
   color: rgb(0, 204, 0);
 }
 
@@ -20,6 +20,7 @@
   padding-left: 5vw;
   padding-right: 5vw;
   font-size: calc(10px + 1.2vmin);
+  color: white;
 }
 
 #contact-body {
@@ -56,4 +57,8 @@
 #contact-submit {
   color: #06303f;
   text-transform: uppercase;
+}
+
+#contact-description {
+  color: white;
 }
