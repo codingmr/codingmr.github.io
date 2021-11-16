@@ -1,0 +1,2 @@
+#about-view{height:auto;min-height:100vh;padding-top:5vh;padding-bottom:5vh;background:#074f57;color:#fffaf0}#about-body,#about-view{display:flex;justify-content:center;align-items:center}#about-body{background-color:inherit}#img{width:calc(320px + 20vmin);max-width:80%;float:right;height:auto}#about-title{font-size:calc(16px + 5vmin)}#section-body{max-width:100%;background-color:inherit}#img-body{max-width:inherit}#section-text{height:inherit;font-size:calc(10px + 1.2vmin)}
+/*# sourceMappingURL=5.44182498.chunk.css.map */
