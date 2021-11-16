@@ -5,7 +5,6 @@ import './styles/landing-default.css';
 import github from '../media/icons/ic_github.svg';
 
 import { Element } from 'react-scroll';
-import Flip from 'react-reveal/Flip';
 
 import Fade from 'react-reveal/Fade';
 
@@ -15,10 +14,8 @@ export default class Landing extends React.Component {
 			<>
 				<Element id="landing-view">
 					<div id="align-center">
-						<Flip bottom duration={1200} delay={700} when={this.componentDidMount}>
-							<h1 id="title">Matt Roberts</h1>
-							<h2 id="subtitle">Software Developer</h2>
-						</Flip>
+						<h1 id="title">Matt Roberts</h1>
+						<h2 id="subtitle">Software Developer</h2>
 						<hr id="line-breaker" />
 						<Fade bottom delay={250}>
 							<div id="welcome-info-body">
@@ -34,6 +31,7 @@ export default class Landing extends React.Component {
 									id="icon_welcome_img"
 									src={github}
 									alt="Github Icon"
+									loading="lazy"
 									width="150"
 									height="150"
 								/>

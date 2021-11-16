@@ -86,7 +86,14 @@ export default class Showcase extends React.Component {
 									<div id="test-layer"></div>
 									<div id="iphone-navigation">
 										<button onClick={this.lastPage} id="pullLeft">
-											<img id="icon_left" src={icon_left} alt="icon_left" width="32" height="32" />
+											<img
+												id="icon_left"
+												src={icon_left}
+												loading="lazy"
+												alt="icon_left"
+												width="32"
+												height="32"
+											/>
 										</button>
 										<button onClick={this.nextPage} id="pullRight">
 											<img
@@ -95,6 +102,7 @@ export default class Showcase extends React.Component {
 												alt="icon_right"
 												width="32"
 												height="32"
+												loading="lazy"
 											/>
 										</button>
 									</div>
@@ -105,6 +113,7 @@ export default class Showcase extends React.Component {
 											alt="device_overlay"
 											width="161"
 											height="287"
+											loading="lazy"
 										/>
 										<Zoom when={this.state.switching}>
 											{this.state.pageSelectedIndex === 1 ? (
@@ -115,6 +124,7 @@ export default class Showcase extends React.Component {
 														alt="coffeeCup"
 														width="512"
 														height="512"
+														loading="lazy"
 													/>
 												</div>
 											) : (
@@ -125,6 +135,7 @@ export default class Showcase extends React.Component {
 														alt="worriedBill"
 														width="370"
 														height="379"
+														loading="lazy"
 													/>
 												</div>
 											)}

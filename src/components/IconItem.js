@@ -19,7 +19,7 @@ export default class IconItem extends React.Component {
 				onClick={() => this.setState({ showToolTip: !this.state.showToolTip })}
 				onKeyDown={() => this.setState({ showToolTip: !this.state.showToolTip })}
 			>
-				<img id="icon_img" src={this.props.iconSrc} alt="alt Icon" />
+				<img id="icon_img" loading="lazy" src={this.props.iconSrc} alt="alt Icon" />
 				{this.state.showToolTip ? <p id="tool-tip">{this.props.iconToolTip}</p> : <p></p>}
 			</div>
 		);

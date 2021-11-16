@@ -16,7 +16,14 @@ export default class About extends React.Component {
 					<div id="section-body">
 						<div id="img-body">
 							<Zoom delay={450} bottom>
-								<img id="img" src={thumbsUp} width="2751" height="2616" alt="Node Network" />
+								<img
+									id="img"
+									src={thumbsUp}
+									loading="lazy"
+									width="2751"
+									height="2616"
+									alt="Node Network"
+								/>
 							</Zoom>
 						</div>
 						<div id="section-text">

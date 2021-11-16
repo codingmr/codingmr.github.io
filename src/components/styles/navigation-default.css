@@ -12,7 +12,6 @@
 .nav-item > * {
   color: rgba(233, 240, 218, 0.9) !important;
   text-decoration: none !important;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-transform: uppercase;
   letter-spacing: calc(2px + 0.1vmin);
   font-size: calc(10px + 1vmin) !important;
