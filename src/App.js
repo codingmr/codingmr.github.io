@@ -1,5 +1,6 @@
 import React, { Component, Suspense } from 'react';
 
+import Loading from './components/Loading';
 import NavigationControl from './components/NavigationControl';
 
 const Landing = React.lazy(() => import('./pages/Landing'));
@@ -12,7 +13,7 @@ const Footer = React.lazy(() => import('./pages/Footer'));
 class App extends Component {
 	render() {
 		return (
-			<Suspense fallback={<div>Loading...</div>}>
+			<Suspense fallback={<Loading />}>
 				<div className="App">
 					<header>
 						<NavigationControl />
